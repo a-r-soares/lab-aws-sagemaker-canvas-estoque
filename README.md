@@ -20,6 +20,8 @@ O fluxo do projeto seguiu as etapas sugeridas pela DIO:
 
 ## 📁 2. Dataset Utilizado
 
+Encontra-se na subpasta datasets, com o nome cafeteria_treinamento_simpleprediction_1000.csv
+
 O dataset sintético inclui as seguintes colunas:
 
 - `data_movimento` — Data do registro (não utilizada pelo modelo)
