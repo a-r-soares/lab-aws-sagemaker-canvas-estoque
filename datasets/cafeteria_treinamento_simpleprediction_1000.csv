@@ -1,0 +1,1001 @@
+data_movimento,produto_id,produto_nome,categoria,estoque_inicial,entrada,temperatura,eventos_regiao,feriado,promocao,saida
+2024-01-01,PRD001,Café Expresso,bebida,81,20,20.6,0,0,0,23
+2024-01-01,PRD002,Café Filtrado,bebida,116,5,24.4,0,0,0,7
+2024-01-01,PRD003,Cappuccino,bebida,51,20,31.6,0,0,0,25
+2024-01-01,PRD004,Latte,bebida,62,10,26.6,0,0,0,31
+2024-01-01,PRD005,Mocha,bebida,88,0,18.7,1,0,0,7
+2024-01-01,PRD006,Leite Integral,insumo,80,20,24.3,0,0,1,18
+2024-01-01,PRD007,Leite Desnatado,insumo,38,0,19.4,0,0,0,11
+2024-01-01,PRD008,Leite Vegetal,insumo,73,20,29.7,0,0,0,8
+2024-01-01,PRD009,Xarope Baunilha,insumo,31,0,25.9,0,0,0,38
+2024-01-01,PRD010,Xarope Caramelo,insumo,103,10,26.4,1,0,0,27
+2024-01-01,PRD011,Copo Pequeno,embalagem,91,20,23.4,0,0,0,30
+2024-01-01,PRD012,Copo Grande,embalagem,118,10,26.5,0,0,0,5
+2024-01-02,PRD001,Café Expresso,bebida,118,0,28.8,0,0,0,15
+2024-01-02,PRD002,Café Filtrado,bebida,110,5,29.1,0,0,1,32
+2024-01-02,PRD003,Cappuccino,bebida,36,0,26.7,0,0,0,27
+2024-01-02,PRD004,Latte,bebida,91,20,28.2,0,0,0,5
+2024-01-02,PRD005,Mocha,bebida,76,5,28.7,0,0,0,31
+2024-01-02,PRD006,Leite Integral,insumo,38,0,18.4,0,0,0,36
+2024-01-02,PRD007,Leite Desnatado,insumo,33,20,21.5,0,0,0,17
+2024-01-02,PRD008,Leite Vegetal,insumo,61,5,27.7,0,0,0,10
+2024-01-02,PRD009,Xarope Baunilha,insumo,57,10,21.1,0,0,0,32
+2024-01-02,PRD010,Xarope Caramelo,insumo,118,0,21.8,0,0,0,17
+2024-01-02,PRD011,Copo Pequeno,embalagem,32,5,23.8,0,0,0,28
+2024-01-02,PRD012,Copo Grande,embalagem,108,5,22.5,0,0,0,16
+2024-01-03,PRD001,Café Expresso,bebida,68,0,28.0,0,0,1,6
+2024-01-03,PRD002,Café Filtrado,bebida,31,10,18.7,0,0,1,23
+2024-01-03,PRD003,Cappuccino,bebida,31,20,24.9,1,0,0,8
+2024-01-03,PRD004,Latte,bebida,84,5,23.2,0,0,0,9
+2024-01-03,PRD005,Mocha,bebida,99,5,29.4,0,0,0,10
+2024-01-03,PRD006,Leite Integral,insumo,109,20,30.0,0,0,0,30
+2024-01-03,PRD007,Leite Desnatado,insumo,96,5,22.9,0,0,1,22
+2024-01-03,PRD008,Leite Vegetal,insumo,30,5,22.8,0,0,1,34
+2024-01-03,PRD009,Xarope Baunilha,insumo,71,5,21.2,0,0,1,6
+2024-01-03,PRD010,Xarope Caramelo,insumo,30,10,25.8,0,0,0,39
+2024-01-03,PRD011,Copo Pequeno,embalagem,48,5,30.0,0,0,0,15
+2024-01-03,PRD012,Copo Grande,embalagem,101,10,30.6,0,0,0,29
+2024-01-04,PRD001,Café Expresso,bebida,54,20,22.0,0,0,0,39
+2024-01-04,PRD002,Café Filtrado,bebida,109,20,21.1,0,0,0,25
+2024-01-04,PRD003,Cappuccino,bebida,77,10,23.1,0,0,0,37
+2024-01-04,PRD004,Latte,bebida,77,10,25.1,0,0,0,34
+2024-01-04,PRD005,Mocha,bebida,67,20,24.8,1,0,0,25
+2024-01-04,PRD006,Leite Integral,insumo,59,0,26.1,0,0,0,23
+2024-01-04,PRD007,Leite Desnatado,insumo,33,5,28.8,0,0,1,34
+2024-01-04,PRD008,Leite Vegetal,insumo,75,20,30.4,0,0,1,33
+2024-01-04,PRD009,Xarope Baunilha,insumo,75,20,26.0,1,0,0,25
+2024-01-04,PRD010,Xarope Caramelo,insumo,61,0,22.4,0,0,0,35
+2024-01-04,PRD011,Copo Pequeno,embalagem,83,0,31.0,0,0,0,26
+2024-01-04,PRD012,Copo Grande,embalagem,52,0,21.6,0,0,0,37
+2024-01-05,PRD001,Café Expresso,bebida,38,5,27.9,0,0,0,30
+2024-01-05,PRD002,Café Filtrado,bebida,79,0,26.6,0,0,0,24
+2024-01-05,PRD003,Cappuccino,bebida,94,10,30.4,0,0,0,36
+2024-01-05,PRD004,Latte,bebida,116,5,24.5,0,0,0,26
+2024-01-05,PRD005,Mocha,bebida,78,10,18.5,0,0,0,37
+2024-01-05,PRD006,Leite Integral,insumo,37,20,21.8,1,0,0,10
+2024-01-05,PRD007,Leite Desnatado,insumo,76,5,26.9,0,0,1,34
+2024-01-05,PRD008,Leite Vegetal,insumo,48,0,23.6,0,0,0,30
+2024-01-05,PRD009,Xarope Baunilha,insumo,119,20,19.1,0,0,0,5
+2024-01-05,PRD010,Xarope Caramelo,insumo,87,0,20.2,0,0,0,29
+2024-01-05,PRD011,Copo Pequeno,embalagem,30,20,28.3,0,0,0,7
+2024-01-05,PRD012,Copo Grande,embalagem,105,0,23.0,0,0,0,18
+2024-01-06,PRD001,Café Expresso,bebida,98,0,22.4,1,0,0,20
+2024-01-06,PRD002,Café Filtrado,bebida,119,0,24.9,0,0,0,34
+2024-01-06,PRD003,Cappuccino,bebida,52,0,26.6,0,0,0,35
+2024-01-06,PRD004,Latte,bebida,39,0,31.1,0,0,0,8
+2024-01-06,PRD005,Mocha,bebida,45,0,18.4,0,0,1,28
+2024-01-06,PRD006,Leite Integral,insumo,41,0,26.0,0,0,0,16
+2024-01-06,PRD007,Leite Desnatado,insumo,96,0,31.5,1,0,0,17
+2024-01-06,PRD008,Leite Vegetal,insumo,41,0,18.5,0,0,0,30
+2024-01-06,PRD009,Xarope Baunilha,insumo,37,20,29.8,0,0,0,11
+2024-01-06,PRD010,Xarope Caramelo,insumo,97,0,27.8,0,0,0,29
+2024-01-06,PRD011,Copo Pequeno,embalagem,50,20,21.9,0,0,0,39
+2024-01-06,PRD012,Copo Grande,embalagem,78,5,23.8,0,0,0,28
+2024-01-07,PRD001,Café Expresso,bebida,52,20,21.3,0,0,0,39
+2024-01-07,PRD002,Café Filtrado,bebida,59,0,25.5,0,0,0,17
+2024-01-07,PRD003,Cappuccino,bebida,88,5,23.4,0,0,1,16
+2024-01-07,PRD004,Latte,bebida,38,10,31.3,1,0,0,20
+2024-01-07,PRD005,Mocha,bebida,98,5,26.4,0,0,0,27
+2024-01-07,PRD006,Leite Integral,insumo,45,0,19.6,1,0,1,18
+2024-01-07,PRD007,Leite Desnatado,insumo,34,5,30.4,0,0,0,16
+2024-01-07,PRD008,Leite Vegetal,insumo,38,0,29.7,0,0,0,17
+2024-01-07,PRD009,Xarope Baunilha,insumo,69,0,23.6,0,0,0,33
+2024-01-07,PRD010,Xarope Caramelo,insumo,66,5,26.1,0,0,0,21
+2024-01-07,PRD011,Copo Pequeno,embalagem,100,0,26.3,0,0,0,23
+2024-01-07,PRD012,Copo Grande,embalagem,90,10,25.8,0,0,1,7
+2024-01-08,PRD001,Café Expresso,bebida,74,20,23.7,0,0,0,12
+2024-01-08,PRD002,Café Filtrado,bebida,90,0,28.4,0,0,0,29
+2024-01-08,PRD003,Cappuccino,bebida,85,0,21.1,1,0,0,36
+2024-01-08,PRD004,Latte,bebida,74,20,22.5,0,0,1,39
+2024-01-08,PRD005,Mocha,bebida,48,10,19.1,0,0,0,19
+2024-01-08,PRD006,Leite Integral,insumo,60,0,26.8,0,0,1,15
+2024-01-08,PRD007,Leite Desnatado,insumo,41,0,31.3,0,0,0,32
+2024-01-08,PRD008,Leite Vegetal,insumo,37,0,20.6,0,0,0,32
+2024-01-08,PRD009,Xarope Baunilha,insumo,70,10,31.8,0,0,0,37
+2024-01-08,PRD010,Xarope Caramelo,insumo,113,20,27.6,0,0,1,10
+2024-01-08,PRD011,Copo Pequeno,embalagem,111,5,28.2,0,0,0,34
+2024-01-08,PRD012,Copo Grande,embalagem,34,0,28.9,0,0,1,15
+2024-01-09,PRD001,Café Expresso,bebida,114,0,23.3,1,0,0,17
+2024-01-09,PRD002,Café Filtrado,bebida,62,0,18.5,0,0,0,10
+2024-01-09,PRD003,Cappuccino,bebida,110,20,32.0,1,0,0,14
+2024-01-09,PRD004,Latte,bebida,103,5,21.5,0,0,0,17
+2024-01-09,PRD005,Mocha,bebida,33,0,27.4,0,0,0,12
+2024-01-09,PRD006,Leite Integral,insumo,68,0,25.0,0,0,0,16
+2024-01-09,PRD007,Leite Desnatado,insumo,94,10,25.9,0,0,0,27
+2024-01-09,PRD008,Leite Vegetal,insumo,108,20,26.7,0,0,0,38
+2024-01-09,PRD009,Xarope Baunilha,insumo,67,0,26.3,0,0,0,38
+2024-01-09,PRD010,Xarope Caramelo,insumo,81,0,25.2,0,0,0,21
+2024-01-09,PRD011,Copo Pequeno,embalagem,34,20,20.1,1,0,0,24
+2024-01-09,PRD012,Copo Grande,embalagem,117,20,31.7,0,0,0,15
+2024-01-10,PRD001,Café Expresso,bebida,52,5,19.9,0,0,0,29
+2024-01-10,PRD002,Café Filtrado,bebida,96,5,25.2,1,0,0,23
+2024-01-10,PRD003,Cappuccino,bebida,50,20,22.8,0,0,0,10
+2024-01-10,PRD004,Latte,bebida,30,20,24.5,0,0,0,18
+2024-01-10,PRD005,Mocha,bebida,119,20,22.5,0,0,0,26
+2024-01-10,PRD006,Leite Integral,insumo,85,5,30.9,0,0,0,5
+2024-01-10,PRD007,Leite Desnatado,insumo,37,0,26.4,1,0,0,26
+2024-01-10,PRD008,Leite Vegetal,insumo,43,0,28.6,0,0,0,30
+2024-01-10,PRD009,Xarope Baunilha,insumo,43,5,21.5,0,0,0,22
+2024-01-10,PRD010,Xarope Caramelo,insumo,67,5,23.6,0,0,0,32
+2024-01-10,PRD011,Copo Pequeno,embalagem,103,0,29.8,0,0,0,29
+2024-01-10,PRD012,Copo Grande,embalagem,46,20,26.3,0,0,0,22
+2024-01-11,PRD001,Café Expresso,bebida,115,0,25.8,0,0,0,10
+2024-01-11,PRD002,Café Filtrado,bebida,81,0,26.5,0,0,0,10
+2024-01-11,PRD003,Cappuccino,bebida,62,20,19.4,0,0,0,8
+2024-01-11,PRD004,Latte,bebida,104,0,19.1,0,0,0,28
+2024-01-11,PRD005,Mocha,bebida,35,0,26.1,1,0,0,34
+2024-01-11,PRD006,Leite Integral,insumo,80,0,28.1,0,0,0,9
+2024-01-11,PRD007,Leite Desnatado,insumo,99,0,22.5,0,0,0,16
+2024-01-11,PRD008,Leite Vegetal,insumo,76,0,26.5,0,0,0,15
+2024-01-11,PRD009,Xarope Baunilha,insumo,106,5,26.3,0,0,0,9
+2024-01-11,PRD010,Xarope Caramelo,insumo,52,0,31.9,0,0,0,5
+2024-01-11,PRD011,Copo Pequeno,embalagem,92,20,18.0,0,0,0,39
+2024-01-11,PRD012,Copo Grande,embalagem,78,20,29.6,1,0,0,15
+2024-01-12,PRD001,Café Expresso,bebida,38,0,20.5,0,0,0,26
+2024-01-12,PRD002,Café Filtrado,bebida,89,20,20.0,0,0,0,34
+2024-01-12,PRD003,Cappuccino,bebida,64,20,20.6,0,0,0,8
+2024-01-12,PRD004,Latte,bebida,118,20,26.2,0,0,0,18
+2024-01-12,PRD005,Mocha,bebida,61,5,26.7,0,0,0,37
+2024-01-12,PRD006,Leite Integral,insumo,54,0,30.6,0,0,0,10
+2024-01-12,PRD007,Leite Desnatado,insumo,35,5,26.8,0,0,0,19
+2024-01-12,PRD008,Leite Vegetal,insumo,58,0,25.5,0,0,0,37
+2024-01-12,PRD009,Xarope Baunilha,insumo,56,0,18.5,0,0,0,14
+2024-01-12,PRD010,Xarope Caramelo,insumo,67,20,19.5,0,0,0,19
+2024-01-12,PRD011,Copo Pequeno,embalagem,58,20,24.8,0,0,0,31
+2024-01-12,PRD012,Copo Grande,embalagem,65,10,28.0,0,0,0,14
+2024-01-13,PRD001,Café Expresso,bebida,67,0,31.3,0,0,0,22
+2024-01-13,PRD002,Café Filtrado,bebida,118,0,18.3,0,0,1,8
+2024-01-13,PRD003,Cappuccino,bebida,34,20,27.9,0,0,0,13
+2024-01-13,PRD004,Latte,bebida,80,20,19.5,0,0,1,5
+2024-01-13,PRD005,Mocha,bebida,75,20,31.8,0,0,0,5
+2024-01-13,PRD006,Leite Integral,insumo,92,5,26.3,0,0,0,13
+2024-01-13,PRD007,Leite Desnatado,insumo,103,10,29.0,0,0,0,29
+2024-01-13,PRD008,Leite Vegetal,insumo,119,5,30.9,0,0,0,31
+2024-01-13,PRD009,Xarope Baunilha,insumo,46,5,18.5,1,0,0,29
+2024-01-13,PRD010,Xarope Caramelo,insumo,100,10,23.9,1,0,0,26
+2024-01-13,PRD011,Copo Pequeno,embalagem,55,10,21.0,0,0,1,24
+2024-01-13,PRD012,Copo Grande,embalagem,115,10,25.5,0,0,0,36
+2024-01-14,PRD001,Café Expresso,bebida,42,5,20.9,0,0,0,33
+2024-01-14,PRD002,Café Filtrado,bebida,78,20,23.3,0,0,0,5
+2024-01-14,PRD003,Cappuccino,bebida,107,5,24.3,0,0,0,34
+2024-01-14,PRD004,Latte,bebida,67,5,20.2,0,0,0,7
+2024-01-14,PRD005,Mocha,bebida,61,0,21.8,0,0,0,27
+2024-01-14,PRD006,Leite Integral,insumo,84,10,29.8,0,0,0,7
+2024-01-14,PRD007,Leite Desnatado,insumo,117,5,25.1,0,0,0,7
+2024-01-14,PRD008,Leite Vegetal,insumo,80,0,25.8,0,0,0,28
+2024-01-14,PRD009,Xarope Baunilha,insumo,107,5,31.5,1,0,0,18
+2024-01-14,PRD010,Xarope Caramelo,insumo,84,0,18.2,0,0,0,23
+2024-01-14,PRD011,Copo Pequeno,embalagem,48,10,27.0,0,0,1,9
+2024-01-14,PRD012,Copo Grande,embalagem,49,5,21.6,0,0,0,16
+2024-01-15,PRD001,Café Expresso,bebida,49,20,22.8,0,0,0,39
+2024-01-15,PRD002,Café Filtrado,bebida,115,10,20.0,0,0,0,27
+2024-01-15,PRD003,Cappuccino,bebida,110,0,18.3,0,0,0,29
+2024-01-15,PRD004,Latte,bebida,102,5,23.9,0,0,1,38
+2024-01-15,PRD005,Mocha,bebida,116,20,18.3,1,0,0,38
+2024-01-15,PRD006,Leite Integral,insumo,46,20,27.1,0,0,0,26
+2024-01-15,PRD007,Leite Desnatado,insumo,114,5,30.6,0,0,0,16
+2024-01-15,PRD008,Leite Vegetal,insumo,82,0,30.8,0,0,0,6
+2024-01-15,PRD009,Xarope Baunilha,insumo,83,5,20.6,0,0,0,33
+2024-01-15,PRD010,Xarope Caramelo,insumo,50,5,22.0,0,0,0,39
+2024-01-15,PRD011,Copo Pequeno,embalagem,83,0,23.6,1,0,0,37
+2024-01-15,PRD012,Copo Grande,embalagem,65,10,20.3,0,0,0,38
+2024-01-16,PRD001,Café Expresso,bebida,102,0,24.6,0,0,0,5
+2024-01-16,PRD002,Café Filtrado,bebida,118,20,27.6,0,0,0,7
+2024-01-16,PRD003,Cappuccino,bebida,73,5,21.8,0,0,0,21
+2024-01-16,PRD004,Latte,bebida,103,0,24.2,0,0,0,28
+2024-01-16,PRD005,Mocha,bebida,112,20,28.6,0,0,0,12
+2024-01-16,PRD006,Leite Integral,insumo,54,0,24.9,0,0,1,30
+2024-01-16,PRD007,Leite Desnatado,insumo,76,0,26.2,1,0,0,26
+2024-01-16,PRD008,Leite Vegetal,insumo,36,20,28.2,0,0,0,27
+2024-01-16,PRD009,Xarope Baunilha,insumo,111,10,29.8,0,0,0,21
+2024-01-16,PRD010,Xarope Caramelo,insumo,43,5,25.8,0,0,0,30
+2024-01-16,PRD011,Copo Pequeno,embalagem,84,10,26.0,0,0,0,26
+2024-01-16,PRD012,Copo Grande,embalagem,54,20,26.8,0,0,0,6
+2024-01-17,PRD001,Café Expresso,bebida,84,5,30.2,0,0,0,17
+2024-01-17,PRD002,Café Filtrado,bebida,47,5,19.0,0,0,0,33
+2024-01-17,PRD003,Cappuccino,bebida,91,20,24.7,0,0,0,14
+2024-01-17,PRD004,Latte,bebida,59,0,22.7,0,0,0,7
+2024-01-17,PRD005,Mocha,bebida,74,0,22.1,0,0,0,5
+2024-01-17,PRD006,Leite Integral,insumo,82,0,19.5,0,0,0,10
+2024-01-17,PRD007,Leite Desnatado,insumo,68,5,30.7,1,0,0,8
+2024-01-17,PRD008,Leite Vegetal,insumo,88,10,29.7,0,0,0,14
+2024-01-17,PRD009,Xarope Baunilha,insumo,86,0,18.5,1,0,0,9
+2024-01-17,PRD010,Xarope Caramelo,insumo,34,0,25.3,0,0,0,39
+2024-01-17,PRD011,Copo Pequeno,embalagem,79,0,27.7,0,0,0,17
+2024-01-17,PRD012,Copo Grande,embalagem,118,0,30.5,0,0,0,7
+2024-01-18,PRD001,Café Expresso,bebida,58,0,18.6,0,0,0,19
+2024-01-18,PRD002,Café Filtrado,bebida,69,0,25.7,0,0,0,19
+2024-01-18,PRD003,Cappuccino,bebida,67,5,28.1,0,0,0,17
+2024-01-18,PRD004,Latte,bebida,57,20,31.9,0,0,0,33
+2024-01-18,PRD005,Mocha,bebida,87,5,22.9,0,0,0,37
+2024-01-18,PRD006,Leite Integral,insumo,35,5,30.2,0,0,0,17
+2024-01-18,PRD007,Leite Desnatado,insumo,74,0,31.0,0,0,0,11
+2024-01-18,PRD008,Leite Vegetal,insumo,34,5,31.5,0,0,0,14
+2024-01-18,PRD009,Xarope Baunilha,insumo,61,5,21.2,1,0,0,6
+2024-01-18,PRD010,Xarope Caramelo,insumo,107,20,25.1,0,0,0,31
+2024-01-18,PRD011,Copo Pequeno,embalagem,46,0,26.9,0,0,0,10
+2024-01-18,PRD012,Copo Grande,embalagem,112,0,24.1,0,0,0,19
+2024-01-19,PRD001,Café Expresso,bebida,66,20,29.0,0,0,0,8
+2024-01-19,PRD002,Café Filtrado,bebida,93,0,28.8,0,0,0,26
+2024-01-19,PRD003,Cappuccino,bebida,119,5,29.9,1,0,0,16
+2024-01-19,PRD004,Latte,bebida,65,5,19.8,0,0,0,15
+2024-01-19,PRD005,Mocha,bebida,62,5,21.5,0,0,0,38
+2024-01-19,PRD006,Leite Integral,insumo,58,10,24.0,0,0,0,33
+2024-01-19,PRD007,Leite Desnatado,insumo,58,5,21.1,0,0,0,26
+2024-01-19,PRD008,Leite Vegetal,insumo,104,5,30.2,1,0,0,33
+2024-01-19,PRD009,Xarope Baunilha,insumo,50,20,26.9,0,0,0,7
+2024-01-19,PRD010,Xarope Caramelo,insumo,30,0,30.5,0,0,0,29
+2024-01-19,PRD011,Copo Pequeno,embalagem,53,10,25.9,0,0,0,29
+2024-01-19,PRD012,Copo Grande,embalagem,46,20,28.9,0,0,0,11
+2024-01-20,PRD001,Café Expresso,bebida,32,20,19.8,0,0,1,7
+2024-01-20,PRD002,Café Filtrado,bebida,49,0,18.0,0,0,0,24
+2024-01-20,PRD003,Cappuccino,bebida,38,0,20.3,0,0,0,6
+2024-01-20,PRD004,Latte,bebida,117,5,31.8,0,0,0,34
+2024-01-20,PRD005,Mocha,bebida,93,0,24.7,0,0,0,29
+2024-01-20,PRD006,Leite Integral,insumo,62,10,28.9,0,0,0,28
+2024-01-20,PRD007,Leite Desnatado,insumo,70,0,19.4,0,0,0,26
+2024-01-20,PRD008,Leite Vegetal,insumo,49,0,25.8,0,0,0,6
+2024-01-20,PRD009,Xarope Baunilha,insumo,62,0,22.9,0,0,0,26
+2024-01-20,PRD010,Xarope Caramelo,insumo,95,0,27.7,0,0,0,15
+2024-01-20,PRD011,Copo Pequeno,embalagem,90,5,30.5,0,0,0,35
+2024-01-20,PRD012,Copo Grande,embalagem,61,0,27.9,0,0,0,24
+2024-01-21,PRD001,Café Expresso,bebida,91,5,24.8,0,0,0,10
+2024-01-21,PRD002,Café Filtrado,bebida,87,0,24.7,0,0,0,18
+2024-01-21,PRD003,Cappuccino,bebida,104,0,18.8,0,0,0,23
+2024-01-21,PRD004,Latte,bebida,84,10,28.4,0,0,0,36
+2024-01-21,PRD005,Mocha,bebida,80,10,25.8,0,0,0,36
+2024-01-21,PRD006,Leite Integral,insumo,85,0,24.9,0,0,0,33
+2024-01-21,PRD007,Leite Desnatado,insumo,83,0,29.8,0,0,1,28
+2024-01-21,PRD008,Leite Vegetal,insumo,49,20,22.8,0,0,1,28
+2024-01-21,PRD009,Xarope Baunilha,insumo,79,0,25.2,0,0,0,38
+2024-01-21,PRD010,Xarope Caramelo,insumo,95,0,29.1,0,0,1,16
+2024-01-21,PRD011,Copo Pequeno,embalagem,32,20,24.5,0,0,0,30
+2024-01-21,PRD012,Copo Grande,embalagem,37,10,30.7,0,0,0,18
+2024-01-22,PRD001,Café Expresso,bebida,31,20,30.0,0,0,0,18
+2024-01-22,PRD002,Café Filtrado,bebida,118,10,26.3,0,0,0,32
+2024-01-22,PRD003,Cappuccino,bebida,95,5,27.2,0,0,0,27
+2024-01-22,PRD004,Latte,bebida,76,5,30.4,0,0,0,33
+2024-01-22,PRD005,Mocha,bebida,39,10,29.6,0,0,0,16
+2024-01-22,PRD006,Leite Integral,insumo,30,0,20.3,0,0,0,16
+2024-01-22,PRD007,Leite Desnatado,insumo,66,0,29.8,0,0,0,19
+2024-01-22,PRD008,Leite Vegetal,insumo,35,10,25.6,0,0,1,13
+2024-01-22,PRD009,Xarope Baunilha,insumo,66,10,18.7,0,0,0,9
+2024-01-22,PRD010,Xarope Caramelo,insumo,62,0,26.2,0,0,0,28
+2024-01-22,PRD011,Copo Pequeno,embalagem,72,0,22.5,1,0,0,27
+2024-01-22,PRD012,Copo Grande,embalagem,73,10,19.8,0,0,0,12
+2024-01-23,PRD001,Café Expresso,bebida,114,0,28.2,0,0,0,26
+2024-01-23,PRD002,Café Filtrado,bebida,76,0,27.3,1,0,0,34
+2024-01-23,PRD003,Cappuccino,bebida,111,0,29.6,0,0,0,31
+2024-01-23,PRD004,Latte,bebida,101,0,27.7,0,0,0,20
+2024-01-23,PRD005,Mocha,bebida,43,20,27.3,0,0,0,6
+2024-01-23,PRD006,Leite Integral,insumo,93,0,30.1,1,0,0,17
+2024-01-23,PRD007,Leite Desnatado,insumo,60,0,19.5,0,0,0,8
+2024-01-23,PRD008,Leite Vegetal,insumo,48,0,28.7,0,0,0,15
+2024-01-23,PRD009,Xarope Baunilha,insumo,30,0,22.6,0,0,0,19
+2024-01-23,PRD010,Xarope Caramelo,insumo,50,5,23.4,0,0,0,39
+2024-01-23,PRD011,Copo Pequeno,embalagem,73,0,26.2,0,0,0,6
+2024-01-23,PRD012,Copo Grande,embalagem,75,0,23.3,0,0,0,10
+2024-01-24,PRD001,Café Expresso,bebida,57,20,29.4,0,0,0,19
+2024-01-24,PRD002,Café Filtrado,bebida,73,10,26.5,0,0,0,25
+2024-01-24,PRD003,Cappuccino,bebida,52,5,18.1,0,0,0,29
+2024-01-24,PRD004,Latte,bebida,65,5,23.3,0,0,0,23
+2024-01-24,PRD005,Mocha,bebida,63,20,26.6,0,0,0,33
+2024-01-24,PRD006,Leite Integral,insumo,57,5,26.1,0,0,0,6
+2024-01-24,PRD007,Leite Desnatado,insumo,78,20,23.8,0,0,0,35
+2024-01-24,PRD008,Leite Vegetal,insumo,103,20,20.6,0,0,0,24
+2024-01-24,PRD009,Xarope Baunilha,insumo,97,0,23.2,0,0,0,17
+2024-01-24,PRD010,Xarope Caramelo,insumo,51,20,30.4,0,0,0,14
+2024-01-24,PRD011,Copo Pequeno,embalagem,117,0,23.1,1,0,0,30
+2024-01-24,PRD012,Copo Grande,embalagem,66,10,21.8,0,0,0,14
+2024-01-25,PRD001,Café Expresso,bebida,118,0,28.7,0,0,0,9
+2024-01-25,PRD002,Café Filtrado,bebida,76,0,28.3,0,0,0,21
+2024-01-25,PRD003,Cappuccino,bebida,51,20,27.0,0,0,0,14
+2024-01-25,PRD004,Latte,bebida,102,20,26.3,0,0,1,39
+2024-01-25,PRD005,Mocha,bebida,36,20,27.5,0,0,0,15
+2024-01-25,PRD006,Leite Integral,insumo,53,10,29.5,0,0,0,36
+2024-01-25,PRD007,Leite Desnatado,insumo,68,20,19.1,0,0,0,7
+2024-01-25,PRD008,Leite Vegetal,insumo,102,0,21.2,0,0,0,6
+2024-01-25,PRD009,Xarope Baunilha,insumo,89,20,19.0,0,0,0,12
+2024-01-25,PRD010,Xarope Caramelo,insumo,79,5,25.5,0,0,0,10
+2024-01-25,PRD011,Copo Pequeno,embalagem,31,10,27.3,0,0,0,34
+2024-01-25,PRD012,Copo Grande,embalagem,37,10,19.2,1,0,0,20
+2024-01-26,PRD001,Café Expresso,bebida,91,0,29.5,0,0,0,12
+2024-01-26,PRD002,Café Filtrado,bebida,113,5,31.0,0,0,0,9
+2024-01-26,PRD003,Cappuccino,bebida,113,10,21.4,0,0,0,26
+2024-01-26,PRD004,Latte,bebida,111,0,26.5,0,0,0,18
+2024-01-26,PRD005,Mocha,bebida,65,0,21.2,0,0,0,6
+2024-01-26,PRD006,Leite Integral,insumo,102,0,22.3,0,0,0,8
+2024-01-26,PRD007,Leite Desnatado,insumo,111,5,29.0,0,0,0,16
+2024-01-26,PRD008,Leite Vegetal,insumo,78,0,25.6,0,0,0,34
+2024-01-26,PRD009,Xarope Baunilha,insumo,107,5,29.1,0,0,0,25
+2024-01-26,PRD010,Xarope Caramelo,insumo,64,0,20.2,0,0,1,22
+2024-01-26,PRD011,Copo Pequeno,embalagem,39,0,26.1,0,0,0,35
+2024-01-26,PRD012,Copo Grande,embalagem,43,0,26.5,0,0,0,7
+2024-01-27,PRD001,Café Expresso,bebida,70,0,27.3,0,0,0,8
+2024-01-27,PRD002,Café Filtrado,bebida,54,10,19.1,0,0,0,32
+2024-01-27,PRD003,Cappuccino,bebida,42,10,24.2,0,0,0,33
+2024-01-27,PRD004,Latte,bebida,72,0,27.1,0,0,0,23
+2024-01-27,PRD005,Mocha,bebida,63,0,21.0,0,0,0,35
+2024-01-27,PRD006,Leite Integral,insumo,85,0,24.0,0,0,0,32
+2024-01-27,PRD007,Leite Desnatado,insumo,91,5,20.5,0,0,0,8
+2024-01-27,PRD008,Leite Vegetal,insumo,69,0,21.3,0,0,0,39
+2024-01-27,PRD009,Xarope Baunilha,insumo,36,5,23.8,0,0,0,26
+2024-01-27,PRD010,Xarope Caramelo,insumo,34,0,19.9,0,0,0,25
+2024-01-27,PRD011,Copo Pequeno,embalagem,39,0,20.7,0,0,0,30
+2024-01-27,PRD012,Copo Grande,embalagem,114,20,29.2,1,0,0,39
+2024-01-28,PRD001,Café Expresso,bebida,89,5,24.4,0,0,0,30
+2024-01-28,PRD002,Café Filtrado,bebida,97,0,22.5,0,0,0,33
+2024-01-28,PRD003,Cappuccino,bebida,81,20,24.4,0,0,0,21
+2024-01-28,PRD004,Latte,bebida,38,0,27.6,0,0,0,14
+2024-01-28,PRD005,Mocha,bebida,87,10,28.9,0,0,0,12
+2024-01-28,PRD006,Leite Integral,insumo,88,0,26.6,0,0,0,23
+2024-01-28,PRD007,Leite Desnatado,insumo,98,10,25.2,0,0,0,27
+2024-01-28,PRD008,Leite Vegetal,insumo,72,0,19.0,0,0,0,9
+2024-01-28,PRD009,Xarope Baunilha,insumo,49,20,23.4,0,0,1,19
+2024-01-28,PRD010,Xarope Caramelo,insumo,112,5,20.6,0,0,0,34
+2024-01-28,PRD011,Copo Pequeno,embalagem,37,0,18.3,0,0,1,35
+2024-01-28,PRD012,Copo Grande,embalagem,37,0,31.7,0,0,0,8
+2024-01-29,PRD001,Café Expresso,bebida,107,0,27.0,0,0,0,14
+2024-01-29,PRD002,Café Filtrado,bebida,50,10,22.1,1,0,0,36
+2024-01-29,PRD003,Cappuccino,bebida,45,10,20.2,0,0,0,22
+2024-01-29,PRD004,Latte,bebida,84,0,23.2,0,0,0,29
+2024-01-29,PRD005,Mocha,bebida,51,10,21.4,0,0,0,25
+2024-01-29,PRD006,Leite Integral,insumo,61,0,21.6,0,0,0,25
+2024-01-29,PRD007,Leite Desnatado,insumo,37,10,18.8,0,0,0,29
+2024-01-29,PRD008,Leite Vegetal,insumo,51,10,18.6,0,0,0,19
+2024-01-29,PRD009,Xarope Baunilha,insumo,81,5,31.5,0,0,0,17
+2024-01-29,PRD010,Xarope Caramelo,insumo,51,5,28.6,0,0,0,23
+2024-01-29,PRD011,Copo Pequeno,embalagem,52,20,19.3,0,0,0,12
+2024-01-29,PRD012,Copo Grande,embalagem,87,0,28.4,0,0,0,39
+2024-01-30,PRD001,Café Expresso,bebida,93,0,27.2,0,0,0,31
+2024-01-30,PRD002,Café Filtrado,bebida,56,0,23.0,0,0,0,26
+2024-01-30,PRD003,Cappuccino,bebida,119,0,18.5,0,0,0,38
+2024-01-30,PRD004,Latte,bebida,82,0,27.5,0,0,0,10
+2024-01-30,PRD005,Mocha,bebida,85,5,31.9,0,0,0,24
+2024-01-30,PRD006,Leite Integral,insumo,39,5,19.9,0,0,0,25
+2024-01-30,PRD007,Leite Desnatado,insumo,103,10,20.5,0,0,0,11
+2024-01-30,PRD008,Leite Vegetal,insumo,33,20,27.0,0,0,0,8
+2024-01-30,PRD009,Xarope Baunilha,insumo,53,0,26.4,0,0,0,23
+2024-01-30,PRD010,Xarope Caramelo,insumo,78,5,18.8,0,0,0,35
+2024-01-30,PRD011,Copo Pequeno,embalagem,93,5,24.2,0,0,0,37
+2024-01-30,PRD012,Copo Grande,embalagem,47,10,18.9,0,0,0,37
+2024-01-31,PRD001,Café Expresso,bebida,46,10,24.9,0,0,0,18
+2024-01-31,PRD002,Café Filtrado,bebida,104,0,31.3,0,0,0,14
+2024-01-31,PRD003,Cappuccino,bebida,79,5,18.4,0,0,0,10
+2024-01-31,PRD004,Latte,bebida,110,5,22.2,1,0,0,30
+2024-01-31,PRD005,Mocha,bebida,98,20,24.5,0,0,0,9
+2024-01-31,PRD006,Leite Integral,insumo,99,0,19.1,0,0,0,5
+2024-01-31,PRD007,Leite Desnatado,insumo,53,0,18.1,0,0,0,35
+2024-01-31,PRD008,Leite Vegetal,insumo,113,0,31.4,0,0,0,34
+2024-01-31,PRD009,Xarope Baunilha,insumo,115,10,21.9,0,0,0,14
+2024-01-31,PRD010,Xarope Caramelo,insumo,109,0,29.8,0,0,0,24
+2024-01-31,PRD011,Copo Pequeno,embalagem,111,0,25.9,0,0,0,31
+2024-01-31,PRD012,Copo Grande,embalagem,36,0,28.3,0,0,0,11
+2024-02-01,PRD001,Café Expresso,bebida,50,0,29.6,0,0,0,25
+2024-02-01,PRD002,Café Filtrado,bebida,111,20,27.2,0,0,0,23
+2024-02-01,PRD003,Cappuccino,bebida,118,20,26.5,0,0,0,8
+2024-02-01,PRD004,Latte,bebida,100,0,25.3,0,0,0,26
+2024-02-01,PRD005,Mocha,bebida,78,0,26.6,0,0,0,14
+2024-02-01,PRD006,Leite Integral,insumo,114,20,31.2,0,0,0,38
+2024-02-01,PRD007,Leite Desnatado,insumo,45,5,27.1,0,0,0,14
+2024-02-01,PRD008,Leite Vegetal,insumo,93,5,29.0,0,0,0,24
+2024-02-01,PRD009,Xarope Baunilha,insumo,55,10,28.6,0,0,0,25
+2024-02-01,PRD010,Xarope Caramelo,insumo,108,10,30.2,0,0,0,32
+2024-02-01,PRD011,Copo Pequeno,embalagem,55,0,18.4,0,0,0,12
+2024-02-01,PRD012,Copo Grande,embalagem,73,0,23.5,0,0,0,27
+2024-02-02,PRD001,Café Expresso,bebida,118,5,23.3,0,0,1,16
+2024-02-02,PRD002,Café Filtrado,bebida,103,10,29.1,0,0,0,13
+2024-02-02,PRD003,Cappuccino,bebida,76,0,20.2,0,0,0,11
+2024-02-02,PRD004,Latte,bebida,109,5,23.1,0,0,0,37
+2024-02-02,PRD005,Mocha,bebida,30,20,28.3,0,0,0,34
+2024-02-02,PRD006,Leite Integral,insumo,99,5,30.4,0,0,0,20
+2024-02-02,PRD007,Leite Desnatado,insumo,30,20,31.8,0,0,0,8
+2024-02-02,PRD008,Leite Vegetal,insumo,57,0,24.0,0,0,0,29
+2024-02-02,PRD009,Xarope Baunilha,insumo,32,0,18.4,0,0,0,9
+2024-02-02,PRD010,Xarope Caramelo,insumo,90,10,30.0,0,0,0,23
+2024-02-02,PRD011,Copo Pequeno,embalagem,89,10,31.8,1,0,0,13
+2024-02-02,PRD012,Copo Grande,embalagem,114,0,29.5,0,0,0,25
+2024-02-03,PRD001,Café Expresso,bebida,57,0,19.4,0,0,0,22
+2024-02-03,PRD002,Café Filtrado,bebida,87,5,27.1,0,0,0,9
+2024-02-03,PRD003,Cappuccino,bebida,40,5,26.9,0,0,0,6
+2024-02-03,PRD004,Latte,bebida,69,10,27.5,0,0,0,5
+2024-02-03,PRD005,Mocha,bebida,101,5,27.7,0,0,0,25
+2024-02-03,PRD006,Leite Integral,insumo,86,20,23.7,0,0,1,21
+2024-02-03,PRD007,Leite Desnatado,insumo,68,0,29.0,0,0,0,37
+2024-02-03,PRD008,Leite Vegetal,insumo,35,5,18.0,0,0,0,18
+2024-02-03,PRD009,Xarope Baunilha,insumo,101,5,23.8,0,0,0,29
+2024-02-03,PRD010,Xarope Caramelo,insumo,69,0,31.5,0,0,0,7
+2024-02-03,PRD011,Copo Pequeno,embalagem,71,5,29.3,0,0,1,13
+2024-02-03,PRD012,Copo Grande,embalagem,48,10,19.6,0,0,0,21
+2024-02-04,PRD001,Café Expresso,bebida,59,0,18.2,0,0,0,15
+2024-02-04,PRD002,Café Filtrado,bebida,82,5,21.2,0,0,0,8
+2024-02-04,PRD003,Cappuccino,bebida,37,0,27.3,0,0,0,20
+2024-02-04,PRD004,Latte,bebida,91,0,22.0,0,0,0,25
+2024-02-04,PRD005,Mocha,bebida,50,20,21.5,0,0,0,13
+2024-02-04,PRD006,Leite Integral,insumo,90,0,27.4,0,0,0,5
+2024-02-04,PRD007,Leite Desnatado,insumo,37,20,27.7,0,0,1,19
+2024-02-04,PRD008,Leite Vegetal,insumo,48,0,20.3,0,0,1,24
+2024-02-04,PRD009,Xarope Baunilha,insumo,58,5,21.3,0,0,0,26
+2024-02-04,PRD010,Xarope Caramelo,insumo,105,20,31.6,0,0,0,31
+2024-02-04,PRD011,Copo Pequeno,embalagem,84,0,25.1,0,0,0,29
+2024-02-04,PRD012,Copo Grande,embalagem,111,0,18.6,0,0,1,23
+2024-02-05,PRD001,Café Expresso,bebida,94,0,22.6,0,0,0,39
+2024-02-05,PRD002,Café Filtrado,bebida,77,20,24.6,0,0,0,12
+2024-02-05,PRD003,Cappuccino,bebida,72,10,19.5,0,0,0,13
+2024-02-05,PRD004,Latte,bebida,117,20,22.0,0,0,0,17
+2024-02-05,PRD005,Mocha,bebida,93,5,18.6,0,0,1,5
+2024-02-05,PRD006,Leite Integral,insumo,69,10,28.2,0,0,0,16
+2024-02-05,PRD007,Leite Desnatado,insumo,90,0,29.5,1,0,0,12
+2024-02-05,PRD008,Leite Vegetal,insumo,54,5,18.0,0,0,0,24
+2024-02-05,PRD009,Xarope Baunilha,insumo,111,0,19.6,0,0,0,22
+2024-02-05,PRD010,Xarope Caramelo,insumo,48,10,25.7,1,0,0,19
+2024-02-05,PRD011,Copo Pequeno,embalagem,70,0,27.4,0,0,0,15
+2024-02-05,PRD012,Copo Grande,embalagem,106,0,25.0,0,0,0,32
+2024-02-06,PRD001,Café Expresso,bebida,32,10,26.9,0,0,0,7
+2024-02-06,PRD002,Café Filtrado,bebida,45,0,18.2,0,0,0,5
+2024-02-06,PRD003,Cappuccino,bebida,84,20,23.6,1,0,0,35
+2024-02-06,PRD004,Latte,bebida,54,0,18.9,0,0,0,39
+2024-02-06,PRD005,Mocha,bebida,74,0,22.3,0,0,0,38
+2024-02-06,PRD006,Leite Integral,insumo,61,5,24.3,0,0,0,27
+2024-02-06,PRD007,Leite Desnatado,insumo,104,0,23.2,0,0,0,28
+2024-02-06,PRD008,Leite Vegetal,insumo,68,0,20.3,0,0,0,5
+2024-02-06,PRD009,Xarope Baunilha,insumo,94,10,22.8,0,0,0,39
+2024-02-06,PRD010,Xarope Caramelo,insumo,72,5,23.7,0,0,0,9
+2024-02-06,PRD011,Copo Pequeno,embalagem,37,0,29.8,0,0,0,35
+2024-02-06,PRD012,Copo Grande,embalagem,33,0,20.0,0,0,0,7
+2024-02-07,PRD001,Café Expresso,bebida,104,20,23.4,0,0,0,31
+2024-02-07,PRD002,Café Filtrado,bebida,80,0,22.4,0,0,0,39
+2024-02-07,PRD003,Cappuccino,bebida,116,10,31.9,0,0,0,21
+2024-02-07,PRD004,Latte,bebida,51,10,31.7,0,0,0,26
+2024-02-07,PRD005,Mocha,bebida,82,5,29.7,0,0,0,25
+2024-02-07,PRD006,Leite Integral,insumo,75,10,21.3,0,0,0,5
+2024-02-07,PRD007,Leite Desnatado,insumo,92,20,24.2,0,0,0,21
+2024-02-07,PRD008,Leite Vegetal,insumo,111,0,29.1,0,0,0,12
+2024-02-07,PRD009,Xarope Baunilha,insumo,57,20,24.7,0,0,0,31
+2024-02-07,PRD010,Xarope Caramelo,insumo,40,20,24.4,0,0,0,32
+2024-02-07,PRD011,Copo Pequeno,embalagem,34,0,27.5,0,0,0,10
+2024-02-07,PRD012,Copo Grande,embalagem,46,5,24.5,1,0,0,36
+2024-02-08,PRD001,Café Expresso,bebida,99,0,24.9,0,0,0,27
+2024-02-08,PRD002,Café Filtrado,bebida,44,5,25.2,0,0,0,18
+2024-02-08,PRD003,Cappuccino,bebida,111,10,29.6,0,0,0,39
+2024-02-08,PRD004,Latte,bebida,77,0,18.8,0,0,0,37
+2024-02-08,PRD005,Mocha,bebida,101,5,22.4,0,0,0,35
+2024-02-08,PRD006,Leite Integral,insumo,109,0,24.7,0,0,0,14
+2024-02-08,PRD007,Leite Desnatado,insumo,71,20,23.0,0,0,0,34
+2024-02-08,PRD008,Leite Vegetal,insumo,86,5,32.0,0,0,0,11
+2024-02-08,PRD009,Xarope Baunilha,insumo,59,5,28.3,0,0,0,17
+2024-02-08,PRD010,Xarope Caramelo,insumo,37,20,29.5,0,0,0,39
+2024-02-08,PRD011,Copo Pequeno,embalagem,95,0,28.1,0,0,0,35
+2024-02-08,PRD012,Copo Grande,embalagem,104,5,25.7,0,0,0,36
+2024-02-09,PRD001,Café Expresso,bebida,63,20,31.4,0,0,0,21
+2024-02-09,PRD002,Café Filtrado,bebida,63,0,21.4,0,0,0,30
+2024-02-09,PRD003,Cappuccino,bebida,42,10,30.1,0,0,0,31
+2024-02-09,PRD004,Latte,bebida,82,0,25.7,0,0,0,23
+2024-02-09,PRD005,Mocha,bebida,82,5,27.1,0,0,0,27
+2024-02-09,PRD006,Leite Integral,insumo,61,0,26.2,0,0,0,36
+2024-02-09,PRD007,Leite Desnatado,insumo,43,0,28.0,0,0,0,26
+2024-02-09,PRD008,Leite Vegetal,insumo,59,10,20.0,0,0,0,35
+2024-02-09,PRD009,Xarope Baunilha,insumo,107,0,19.9,0,0,0,16
+2024-02-09,PRD010,Xarope Caramelo,insumo,78,0,18.0,0,0,0,36
+2024-02-09,PRD011,Copo Pequeno,embalagem,115,0,18.9,0,0,0,9
+2024-02-09,PRD012,Copo Grande,embalagem,73,0,19.2,1,0,0,23
+2024-02-10,PRD001,Café Expresso,bebida,38,5,30.1,0,0,1,17
+2024-02-10,PRD002,Café Filtrado,bebida,112,0,23.3,1,0,0,21
+2024-02-10,PRD003,Cappuccino,bebida,87,0,25.9,1,0,0,14
+2024-02-10,PRD004,Latte,bebida,76,20,28.0,0,0,1,15
+2024-02-10,PRD005,Mocha,bebida,46,10,27.8,0,0,0,23
+2024-02-10,PRD006,Leite Integral,insumo,112,10,32.0,0,0,0,32
+2024-02-10,PRD007,Leite Desnatado,insumo,70,5,24.4,0,0,0,11
+2024-02-10,PRD008,Leite Vegetal,insumo,42,0,25.7,0,0,0,13
+2024-02-10,PRD009,Xarope Baunilha,insumo,102,5,28.2,0,0,0,27
+2024-02-10,PRD010,Xarope Caramelo,insumo,74,20,22.1,0,0,0,22
+2024-02-10,PRD011,Copo Pequeno,embalagem,32,10,31.6,0,0,0,5
+2024-02-10,PRD012,Copo Grande,embalagem,50,10,18.6,0,0,0,14
+2024-02-11,PRD001,Café Expresso,bebida,82,10,19.4,0,0,0,28
+2024-02-11,PRD002,Café Filtrado,bebida,31,0,19.7,0,0,0,21
+2024-02-11,PRD003,Cappuccino,bebida,41,10,18.1,0,0,1,30
+2024-02-11,PRD004,Latte,bebida,94,10,24.4,0,0,0,32
+2024-02-11,PRD005,Mocha,bebida,87,10,19.8,0,0,0,34
+2024-02-11,PRD006,Leite Integral,insumo,63,20,21.7,0,0,0,37
+2024-02-11,PRD007,Leite Desnatado,insumo,84,0,21.1,0,0,0,20
+2024-02-11,PRD008,Leite Vegetal,insumo,72,20,27.1,1,0,0,13
+2024-02-11,PRD009,Xarope Baunilha,insumo,61,5,29.6,0,0,0,26
+2024-02-11,PRD010,Xarope Caramelo,insumo,88,10,30.6,0,0,1,38
+2024-02-11,PRD011,Copo Pequeno,embalagem,57,20,28.5,0,0,0,30
+2024-02-11,PRD012,Copo Grande,embalagem,38,20,25.4,0,0,0,36
+2024-02-12,PRD001,Café Expresso,bebida,57,0,20.9,0,0,0,30
+2024-02-12,PRD002,Café Filtrado,bebida,54,0,22.4,0,0,1,12
+2024-02-12,PRD003,Cappuccino,bebida,97,10,27.0,0,0,1,28
+2024-02-12,PRD004,Latte,bebida,83,10,25.5,0,0,0,30
+2024-02-12,PRD005,Mocha,bebida,34,10,26.8,0,0,0,31
+2024-02-12,PRD006,Leite Integral,insumo,44,20,31.3,1,0,0,26
+2024-02-12,PRD007,Leite Desnatado,insumo,91,0,25.7,0,0,0,7
+2024-02-12,PRD008,Leite Vegetal,insumo,35,20,24.7,0,0,0,21
+2024-02-12,PRD009,Xarope Baunilha,insumo,104,20,25.4,0,0,0,20
+2024-02-12,PRD010,Xarope Caramelo,insumo,97,5,25.0,0,0,1,16
+2024-02-12,PRD011,Copo Pequeno,embalagem,40,20,24.1,0,0,0,22
+2024-02-12,PRD012,Copo Grande,embalagem,55,10,29.6,0,0,0,21
+2024-02-13,PRD001,Café Expresso,bebida,72,20,31.3,1,0,0,12
+2024-02-13,PRD002,Café Filtrado,bebida,94,5,27.3,0,0,0,26
+2024-02-13,PRD003,Cappuccino,bebida,115,10,18.2,0,0,0,32
+2024-02-13,PRD004,Latte,bebida,71,5,18.6,0,0,0,12
+2024-02-13,PRD005,Mocha,bebida,77,5,21.6,0,0,0,17
+2024-02-13,PRD006,Leite Integral,insumo,74,0,30.6,0,0,1,38
+2024-02-13,PRD007,Leite Desnatado,insumo,30,0,28.7,0,0,0,34
+2024-02-13,PRD008,Leite Vegetal,insumo,64,5,31.3,0,0,0,22
+2024-02-13,PRD009,Xarope Baunilha,insumo,74,10,23.4,0,0,0,5
+2024-02-13,PRD010,Xarope Caramelo,insumo,30,0,30.3,1,0,0,15
+2024-02-13,PRD011,Copo Pequeno,embalagem,70,0,21.2,1,0,0,33
+2024-02-13,PRD012,Copo Grande,embalagem,97,20,28.1,0,0,0,16
+2024-02-14,PRD001,Café Expresso,bebida,55,5,22.0,0,0,0,11
+2024-02-14,PRD002,Café Filtrado,bebida,55,20,23.9,0,0,0,19
+2024-02-14,PRD003,Cappuccino,bebida,37,0,22.1,0,0,0,31
+2024-02-14,PRD004,Latte,bebida,97,0,31.2,0,0,0,28
+2024-02-14,PRD005,Mocha,bebida,56,20,28.2,0,0,0,8
+2024-02-14,PRD006,Leite Integral,insumo,96,0,30.3,0,0,0,27
+2024-02-14,PRD007,Leite Desnatado,insumo,98,20,28.7,0,0,0,10
+2024-02-14,PRD008,Leite Vegetal,insumo,86,0,20.8,0,0,0,24
+2024-02-14,PRD009,Xarope Baunilha,insumo,32,5,18.7,0,0,0,9
+2024-02-14,PRD010,Xarope Caramelo,insumo,42,0,22.2,0,0,0,31
+2024-02-14,PRD011,Copo Pequeno,embalagem,80,0,23.2,1,0,0,20
+2024-02-14,PRD012,Copo Grande,embalagem,51,20,25.6,0,0,0,35
+2024-02-15,PRD001,Café Expresso,bebida,71,0,18.3,0,0,0,21
+2024-02-15,PRD002,Café Filtrado,bebida,40,0,24.7,0,0,1,29
+2024-02-15,PRD003,Cappuccino,bebida,50,20,19.4,0,0,0,21
+2024-02-15,PRD004,Latte,bebida,117,0,27.8,0,0,0,5
+2024-02-15,PRD005,Mocha,bebida,52,0,28.2,0,0,0,33
+2024-02-15,PRD006,Leite Integral,insumo,102,20,21.0,0,0,0,21
+2024-02-15,PRD007,Leite Desnatado,insumo,92,0,28.2,0,0,1,5
+2024-02-15,PRD008,Leite Vegetal,insumo,110,5,24.8,0,0,0,8
+2024-02-15,PRD009,Xarope Baunilha,insumo,47,0,18.4,0,0,0,37
+2024-02-15,PRD010,Xarope Caramelo,insumo,43,0,24.1,0,0,0,23
+2024-02-15,PRD011,Copo Pequeno,embalagem,35,0,25.5,0,0,0,9
+2024-02-15,PRD012,Copo Grande,embalagem,56,20,31.5,0,0,1,20
+2024-02-16,PRD001,Café Expresso,bebida,72,0,29.3,0,0,0,6
+2024-02-16,PRD002,Café Filtrado,bebida,51,5,25.0,0,0,0,7
+2024-02-16,PRD003,Cappuccino,bebida,45,5,26.8,0,0,0,37
+2024-02-16,PRD004,Latte,bebida,41,20,22.3,0,0,0,37
+2024-02-16,PRD005,Mocha,bebida,34,0,30.3,0,0,0,37
+2024-02-16,PRD006,Leite Integral,insumo,91,0,24.1,0,0,0,6
+2024-02-16,PRD007,Leite Desnatado,insumo,76,10,31.7,0,0,0,27
+2024-02-16,PRD008,Leite Vegetal,insumo,43,5,29.0,0,0,1,28
+2024-02-16,PRD009,Xarope Baunilha,insumo,111,0,30.8,0,0,0,14
+2024-02-16,PRD010,Xarope Caramelo,insumo,46,0,31.6,0,0,0,9
+2024-02-16,PRD011,Copo Pequeno,embalagem,111,0,26.2,0,0,0,11
+2024-02-16,PRD012,Copo Grande,embalagem,32,0,25.2,0,0,0,28
+2024-02-17,PRD001,Café Expresso,bebida,103,0,26.5,0,0,0,24
+2024-02-17,PRD002,Café Filtrado,bebida,70,10,26.4,0,0,0,34
+2024-02-17,PRD003,Cappuccino,bebida,82,0,27.9,0,0,0,13
+2024-02-17,PRD004,Latte,bebida,77,0,25.4,0,0,0,8
+2024-02-17,PRD005,Mocha,bebida,94,5,19.5,0,0,1,26
+2024-02-17,PRD006,Leite Integral,insumo,80,20,20.8,0,0,0,29
+2024-02-17,PRD007,Leite Desnatado,insumo,57,0,18.2,0,0,0,23
+2024-02-17,PRD008,Leite Vegetal,insumo,30,0,23.6,0,0,0,36
+2024-02-17,PRD009,Xarope Baunilha,insumo,35,0,25.0,0,0,0,25
+2024-02-17,PRD010,Xarope Caramelo,insumo,54,10,30.1,0,0,0,31
+2024-02-17,PRD011,Copo Pequeno,embalagem,55,5,26.3,0,0,0,24
+2024-02-17,PRD012,Copo Grande,embalagem,69,0,29.5,0,0,1,37
+2024-02-18,PRD001,Café Expresso,bebida,98,5,21.5,0,0,0,7
+2024-02-18,PRD002,Café Filtrado,bebida,91,0,26.4,0,0,0,14
+2024-02-18,PRD003,Cappuccino,bebida,111,5,24.9,0,0,0,7
+2024-02-18,PRD004,Latte,bebida,103,0,21.5,1,0,0,21
+2024-02-18,PRD005,Mocha,bebida,102,20,26.2,0,0,0,32
+2024-02-18,PRD006,Leite Integral,insumo,83,20,27.3,0,0,0,19
+2024-02-18,PRD007,Leite Desnatado,insumo,47,0,25.0,0,0,0,17
+2024-02-18,PRD008,Leite Vegetal,insumo,33,20,24.6,0,0,0,5
+2024-02-18,PRD009,Xarope Baunilha,insumo,84,5,23.7,0,0,0,25
+2024-02-18,PRD010,Xarope Caramelo,insumo,58,20,29.0,1,0,0,7
+2024-02-18,PRD011,Copo Pequeno,embalagem,76,10,24.2,0,0,0,16
+2024-02-18,PRD012,Copo Grande,embalagem,89,5,25.2,0,0,0,28
+2024-02-19,PRD001,Café Expresso,bebida,54,20,22.3,1,0,1,20
+2024-02-19,PRD002,Café Filtrado,bebida,114,20,23.5,0,0,0,26
+2024-02-19,PRD003,Cappuccino,bebida,70,20,27.5,0,0,0,7
+2024-02-19,PRD004,Latte,bebida,59,0,18.2,0,0,0,27
+2024-02-19,PRD005,Mocha,bebida,42,10,21.2,0,0,0,25
+2024-02-19,PRD006,Leite Integral,insumo,95,20,28.3,0,0,0,37
+2024-02-19,PRD007,Leite Desnatado,insumo,59,0,23.8,0,0,0,14
+2024-02-19,PRD008,Leite Vegetal,insumo,65,0,25.3,0,0,0,23
+2024-02-19,PRD009,Xarope Baunilha,insumo,44,10,26.0,1,0,0,37
+2024-02-19,PRD010,Xarope Caramelo,insumo,91,0,25.6,0,0,0,5
+2024-02-19,PRD011,Copo Pequeno,embalagem,58,0,22.6,0,0,0,33
+2024-02-19,PRD012,Copo Grande,embalagem,77,20,27.8,0,0,1,28
+2024-02-20,PRD001,Café Expresso,bebida,55,0,20.9,0,0,0,11
+2024-02-20,PRD002,Café Filtrado,bebida,87,0,31.3,0,0,0,29
+2024-02-20,PRD003,Cappuccino,bebida,32,20,26.8,0,0,0,29
+2024-02-20,PRD004,Latte,bebida,83,10,27.8,0,0,0,26
+2024-02-20,PRD005,Mocha,bebida,109,0,24.8,0,0,0,18
+2024-02-20,PRD006,Leite Integral,insumo,58,5,29.5,0,0,0,15
+2024-02-20,PRD007,Leite Desnatado,insumo,82,0,29.2,1,0,0,36
+2024-02-20,PRD008,Leite Vegetal,insumo,37,10,20.5,0,0,0,22
+2024-02-20,PRD009,Xarope Baunilha,insumo,95,20,29.3,0,0,1,33
+2024-02-20,PRD010,Xarope Caramelo,insumo,96,5,19.0,0,0,0,8
+2024-02-20,PRD011,Copo Pequeno,embalagem,89,10,18.6,0,0,1,34
+2024-02-20,PRD012,Copo Grande,embalagem,31,0,23.2,0,0,0,19
+2024-02-21,PRD001,Café Expresso,bebida,77,0,26.1,0,0,0,36
+2024-02-21,PRD002,Café Filtrado,bebida,87,10,20.0,0,0,0,33
+2024-02-21,PRD003,Cappuccino,bebida,88,10,20.7,0,0,0,21
+2024-02-21,PRD004,Latte,bebida,45,5,24.1,0,0,0,26
+2024-02-21,PRD005,Mocha,bebida,91,0,22.3,0,0,0,20
+2024-02-21,PRD006,Leite Integral,insumo,37,5,20.6,0,0,0,34
+2024-02-21,PRD007,Leite Desnatado,insumo,105,0,25.1,0,0,0,6
+2024-02-21,PRD008,Leite Vegetal,insumo,79,10,24.2,0,0,1,7
+2024-02-21,PRD009,Xarope Baunilha,insumo,67,5,26.9,0,0,0,32
+2024-02-21,PRD010,Xarope Caramelo,insumo,50,0,21.9,0,0,0,14
+2024-02-21,PRD011,Copo Pequeno,embalagem,82,10,24.5,1,0,0,24
+2024-02-21,PRD012,Copo Grande,embalagem,105,0,24.1,0,0,0,10
+2024-02-22,PRD001,Café Expresso,bebida,50,5,29.5,0,0,0,10
+2024-02-22,PRD002,Café Filtrado,bebida,118,5,25.2,0,0,0,17
+2024-02-22,PRD003,Cappuccino,bebida,47,0,28.5,0,0,0,31
+2024-02-22,PRD004,Latte,bebida,49,10,22.6,0,0,0,14
+2024-02-22,PRD005,Mocha,bebida,96,20,24.5,0,0,0,17
+2024-02-22,PRD006,Leite Integral,insumo,64,10,30.5,0,0,0,34
+2024-02-22,PRD007,Leite Desnatado,insumo,77,20,21.2,0,0,0,36
+2024-02-22,PRD008,Leite Vegetal,insumo,61,5,18.1,1,0,0,14
+2024-02-22,PRD009,Xarope Baunilha,insumo,112,0,19.0,0,0,0,6
+2024-02-22,PRD010,Xarope Caramelo,insumo,103,20,23.4,0,0,0,28
+2024-02-22,PRD011,Copo Pequeno,embalagem,40,0,22.8,0,0,0,25
+2024-02-22,PRD012,Copo Grande,embalagem,41,0,27.1,0,0,0,29
+2024-02-23,PRD001,Café Expresso,bebida,43,5,31.3,0,0,0,22
+2024-02-23,PRD002,Café Filtrado,bebida,116,5,20.3,0,0,0,29
+2024-02-23,PRD003,Cappuccino,bebida,83,0,25.8,0,0,0,5
+2024-02-23,PRD004,Latte,bebida,44,10,18.6,0,0,0,18
+2024-02-23,PRD005,Mocha,bebida,79,10,27.6,0,0,0,19
+2024-02-23,PRD006,Leite Integral,insumo,41,10,31.5,0,0,0,34
+2024-02-23,PRD007,Leite Desnatado,insumo,42,20,26.2,0,0,0,30
+2024-02-23,PRD008,Leite Vegetal,insumo,104,10,23.0,0,0,0,30
+2024-02-23,PRD009,Xarope Baunilha,insumo,59,0,26.5,0,0,0,11
+2024-02-23,PRD010,Xarope Caramelo,insumo,109,20,31.7,0,0,0,27
+2024-02-23,PRD011,Copo Pequeno,embalagem,117,0,32.0,0,0,0,35
+2024-02-23,PRD012,Copo Grande,embalagem,86,20,18.9,0,0,0,16
+2024-02-24,PRD001,Café Expresso,bebida,78,0,29.9,1,0,0,15
+2024-02-24,PRD002,Café Filtrado,bebida,79,10,20.4,0,0,0,28
+2024-02-24,PRD003,Cappuccino,bebida,39,10,24.1,0,0,1,12
+2024-02-24,PRD004,Latte,bebida,69,10,21.9,0,0,0,12
+2024-02-24,PRD005,Mocha,bebida,85,10,29.6,0,0,0,17
+2024-02-24,PRD006,Leite Integral,insumo,65,20,20.4,0,0,0,28
+2024-02-24,PRD007,Leite Desnatado,insumo,116,0,29.6,0,0,0,9
+2024-02-24,PRD008,Leite Vegetal,insumo,93,0,25.1,0,0,0,27
+2024-02-24,PRD009,Xarope Baunilha,insumo,46,0,24.4,0,0,0,38
+2024-02-24,PRD010,Xarope Caramelo,insumo,38,20,22.9,0,0,1,21
+2024-02-24,PRD011,Copo Pequeno,embalagem,44,0,22.4,0,0,0,21
+2024-02-24,PRD012,Copo Grande,embalagem,61,0,31.2,0,0,0,17
+2024-02-25,PRD001,Café Expresso,bebida,109,0,24.9,0,0,0,11
+2024-02-25,PRD002,Café Filtrado,bebida,77,0,19.7,0,0,0,36
+2024-02-25,PRD003,Cappuccino,bebida,91,20,30.5,0,0,0,17
+2024-02-25,PRD004,Latte,bebida,89,0,30.2,0,0,1,12
+2024-02-25,PRD005,Mocha,bebida,54,20,27.3,0,0,0,32
+2024-02-25,PRD006,Leite Integral,insumo,82,5,21.1,0,0,0,26
+2024-02-25,PRD007,Leite Desnatado,insumo,67,0,29.0,0,0,1,16
+2024-02-25,PRD008,Leite Vegetal,insumo,78,5,29.8,0,0,0,29
+2024-02-25,PRD009,Xarope Baunilha,insumo,70,20,30.2,0,0,0,17
+2024-02-25,PRD010,Xarope Caramelo,insumo,74,0,29.1,0,0,0,37
+2024-02-25,PRD011,Copo Pequeno,embalagem,30,20,19.3,0,0,1,27
+2024-02-25,PRD012,Copo Grande,embalagem,75,5,21.3,1,0,0,32
+2024-02-26,PRD001,Café Expresso,bebida,118,20,20.2,0,0,0,21
+2024-02-26,PRD002,Café Filtrado,bebida,59,20,28.8,0,0,0,17
+2024-02-26,PRD003,Cappuccino,bebida,72,20,28.7,0,0,0,23
+2024-02-26,PRD004,Latte,bebida,44,0,24.6,0,0,0,34
+2024-02-26,PRD005,Mocha,bebida,62,0,24.1,0,0,0,39
+2024-02-26,PRD006,Leite Integral,insumo,104,0,21.0,0,0,0,18
+2024-02-26,PRD007,Leite Desnatado,insumo,86,5,20.4,0,0,0,15
+2024-02-26,PRD008,Leite Vegetal,insumo,72,0,21.0,0,0,0,27
+2024-02-26,PRD009,Xarope Baunilha,insumo,85,0,22.5,0,0,0,12
+2024-02-26,PRD010,Xarope Caramelo,insumo,78,5,23.9,0,0,0,6
+2024-02-26,PRD011,Copo Pequeno,embalagem,92,5,26.9,0,0,0,32
+2024-02-26,PRD012,Copo Grande,embalagem,95,20,30.4,0,0,0,17
+2024-02-27,PRD001,Café Expresso,bebida,81,0,28.0,0,0,0,23
+2024-02-27,PRD002,Café Filtrado,bebida,87,10,22.8,0,0,0,5
+2024-02-27,PRD003,Cappuccino,bebida,71,0,31.9,0,0,1,28
+2024-02-27,PRD004,Latte,bebida,109,0,31.0,0,0,0,20
+2024-02-27,PRD005,Mocha,bebida,85,10,21.8,0,0,0,38
+2024-02-27,PRD006,Leite Integral,insumo,96,0,18.1,0,0,1,24
+2024-02-27,PRD007,Leite Desnatado,insumo,93,0,20.5,0,0,0,31
+2024-02-27,PRD008,Leite Vegetal,insumo,109,0,18.1,0,0,0,30
+2024-02-27,PRD009,Xarope Baunilha,insumo,76,0,30.0,0,0,0,8
+2024-02-27,PRD010,Xarope Caramelo,insumo,116,0,24.2,0,0,1,25
+2024-02-27,PRD011,Copo Pequeno,embalagem,118,10,29.6,0,0,0,37
+2024-02-27,PRD012,Copo Grande,embalagem,67,20,24.9,0,0,0,29
+2024-02-28,PRD001,Café Expresso,bebida,50,0,23.5,0,0,0,27
+2024-02-28,PRD002,Café Filtrado,bebida,97,5,31.0,0,0,0,27
+2024-02-28,PRD003,Cappuccino,bebida,93,5,23.8,0,0,1,12
+2024-02-28,PRD004,Latte,bebida,104,20,28.9,0,0,0,33
+2024-02-28,PRD005,Mocha,bebida,98,0,30.5,0,0,0,34
+2024-02-28,PRD006,Leite Integral,insumo,40,10,21.1,0,0,0,12
+2024-02-28,PRD007,Leite Desnatado,insumo,92,20,21.4,0,0,0,35
+2024-02-28,PRD008,Leite Vegetal,insumo,87,20,21.4,0,0,0,29
+2024-02-28,PRD009,Xarope Baunilha,insumo,105,0,24.4,0,0,0,5
+2024-02-28,PRD010,Xarope Caramelo,insumo,92,0,23.0,0,0,0,39
+2024-02-28,PRD011,Copo Pequeno,embalagem,109,0,22.6,0,0,0,21
+2024-02-28,PRD012,Copo Grande,embalagem,107,20,29.8,0,0,0,19
+2024-02-29,PRD001,Café Expresso,bebida,83,20,23.4,0,0,0,39
+2024-02-29,PRD002,Café Filtrado,bebida,89,20,31.1,0,0,0,30
+2024-02-29,PRD003,Cappuccino,bebida,76,20,22.4,0,0,0,22
+2024-02-29,PRD004,Latte,bebida,33,0,31.0,0,0,0,19
+2024-02-29,PRD005,Mocha,bebida,48,5,18.6,0,0,0,24
+2024-02-29,PRD006,Leite Integral,insumo,64,0,29.7,0,0,0,21
+2024-02-29,PRD007,Leite Desnatado,insumo,100,5,31.5,0,0,0,10
+2024-02-29,PRD008,Leite Vegetal,insumo,87,20,19.0,0,0,0,20
+2024-02-29,PRD009,Xarope Baunilha,insumo,45,10,23.9,0,0,0,35
+2024-02-29,PRD010,Xarope Caramelo,insumo,32,5,21.7,0,0,0,11
+2024-02-29,PRD011,Copo Pequeno,embalagem,86,5,19.3,0,0,0,33
+2024-02-29,PRD012,Copo Grande,embalagem,68,10,24.2,0,0,0,34
+2024-03-01,PRD001,Café Expresso,bebida,35,0,21.3,0,0,0,10
+2024-03-01,PRD002,Café Filtrado,bebida,61,0,29.8,0,0,0,14
+2024-03-01,PRD003,Cappuccino,bebida,113,5,25.8,0,0,0,36
+2024-03-01,PRD004,Latte,bebida,33,10,21.3,0,0,0,10
+2024-03-01,PRD005,Mocha,bebida,64,0,23.6,0,0,0,7
+2024-03-01,PRD006,Leite Integral,insumo,38,10,20.7,0,0,0,13
+2024-03-01,PRD007,Leite Desnatado,insumo,52,0,26.7,0,0,0,27
+2024-03-01,PRD008,Leite Vegetal,insumo,59,0,20.2,0,0,0,29
+2024-03-01,PRD009,Xarope Baunilha,insumo,103,0,19.2,0,0,0,29
+2024-03-01,PRD010,Xarope Caramelo,insumo,107,5,26.4,0,0,0,15
+2024-03-01,PRD011,Copo Pequeno,embalagem,114,20,31.3,0,0,0,6
+2024-03-01,PRD012,Copo Grande,embalagem,105,0,23.9,0,0,0,22
+2024-03-02,PRD001,Café Expresso,bebida,88,0,31.3,0,0,0,16
+2024-03-02,PRD002,Café Filtrado,bebida,89,20,25.9,0,0,0,31
+2024-03-02,PRD003,Cappuccino,bebida,56,10,24.0,0,0,0,21
+2024-03-02,PRD004,Latte,bebida,65,20,19.2,0,0,0,33
+2024-03-02,PRD005,Mocha,bebida,76,10,22.0,0,0,0,11
+2024-03-02,PRD006,Leite Integral,insumo,81,10,28.6,0,0,0,23
+2024-03-02,PRD007,Leite Desnatado,insumo,106,0,20.9,0,0,1,33
+2024-03-02,PRD008,Leite Vegetal,insumo,49,0,21.8,0,0,0,20
+2024-03-02,PRD009,Xarope Baunilha,insumo,47,20,29.6,0,0,0,38
+2024-03-02,PRD010,Xarope Caramelo,insumo,42,5,27.0,0,0,0,13
+2024-03-02,PRD011,Copo Pequeno,embalagem,48,10,27.4,0,0,0,8
+2024-03-02,PRD012,Copo Grande,embalagem,79,0,18.6,0,0,0,26
+2024-03-03,PRD001,Café Expresso,bebida,87,10,21.8,0,0,1,35
+2024-03-03,PRD002,Café Filtrado,bebida,36,10,31.7,0,0,0,25
+2024-03-03,PRD003,Cappuccino,bebida,90,5,31.8,0,0,0,14
+2024-03-03,PRD004,Latte,bebida,31,0,22.6,0,0,0,35
+2024-03-03,PRD005,Mocha,bebida,117,0,19.8,0,0,0,16
+2024-03-03,PRD006,Leite Integral,insumo,110,0,24.9,0,0,0,11
+2024-03-03,PRD007,Leite Desnatado,insumo,31,0,30.1,0,0,0,15
+2024-03-03,PRD008,Leite Vegetal,insumo,96,10,20.1,0,0,1,20
+2024-03-03,PRD009,Xarope Baunilha,insumo,31,10,18.0,0,0,0,36
+2024-03-03,PRD010,Xarope Caramelo,insumo,39,10,31.2,0,0,0,20
+2024-03-03,PRD011,Copo Pequeno,embalagem,51,0,29.9,0,0,0,38
+2024-03-03,PRD012,Copo Grande,embalagem,61,0,26.3,0,0,0,30
+2024-03-04,PRD001,Café Expresso,bebida,102,0,19.1,0,0,0,6
+2024-03-04,PRD002,Café Filtrado,bebida,94,5,25.7,0,0,0,35
+2024-03-04,PRD003,Cappuccino,bebida,86,0,18.7,0,0,0,28
+2024-03-04,PRD004,Latte,bebida,50,0,25.7,0,0,0,38
+2024-03-04,PRD005,Mocha,bebida,87,10,20.1,0,0,1,26
+2024-03-04,PRD006,Leite Integral,insumo,107,20,30.6,0,0,0,24
+2024-03-04,PRD007,Leite Desnatado,insumo,47,5,21.6,0,0,0,9
+2024-03-04,PRD008,Leite Vegetal,insumo,97,20,26.9,0,0,0,10
+2024-03-04,PRD009,Xarope Baunilha,insumo,41,0,27.3,0,0,0,36
+2024-03-04,PRD010,Xarope Caramelo,insumo,44,10,30.9,0,0,0,9
+2024-03-04,PRD011,Copo Pequeno,embalagem,56,10,27.0,0,0,0,37
+2024-03-04,PRD012,Copo Grande,embalagem,60,5,23.0,0,0,0,27
+2024-03-05,PRD001,Café Expresso,bebida,61,20,31.4,0,0,0,10
+2024-03-05,PRD002,Café Filtrado,bebida,54,0,26.5,0,0,0,5
+2024-03-05,PRD003,Cappuccino,bebida,113,10,19.4,0,0,1,28
+2024-03-05,PRD004,Latte,bebida,104,20,19.2,0,0,0,7
+2024-03-05,PRD005,Mocha,bebida,94,0,24.7,0,0,0,24
+2024-03-05,PRD006,Leite Integral,insumo,99,20,27.7,0,0,0,9
+2024-03-05,PRD007,Leite Desnatado,insumo,105,10,27.8,0,0,0,23
+2024-03-05,PRD008,Leite Vegetal,insumo,74,5,20.6,0,0,0,26
+2024-03-05,PRD009,Xarope Baunilha,insumo,72,5,21.2,0,0,0,30
+2024-03-05,PRD010,Xarope Caramelo,insumo,52,5,21.9,0,0,0,16
+2024-03-05,PRD011,Copo Pequeno,embalagem,108,5,26.9,0,0,0,23
+2024-03-05,PRD012,Copo Grande,embalagem,93,10,22.3,0,0,0,12
+2024-03-06,PRD001,Café Expresso,bebida,88,10,28.2,0,0,0,8
+2024-03-06,PRD002,Café Filtrado,bebida,54,10,27.8,0,0,0,28
+2024-03-06,PRD003,Cappuccino,bebida,109,0,31.7,0,0,0,8
+2024-03-06,PRD004,Latte,bebida,104,0,27.5,0,0,0,27
+2024-03-06,PRD005,Mocha,bebida,74,0,26.2,1,0,0,33
+2024-03-06,PRD006,Leite Integral,insumo,112,0,25.1,0,0,0,21
+2024-03-06,PRD007,Leite Desnatado,insumo,96,10,23.6,0,0,0,27
+2024-03-06,PRD008,Leite Vegetal,insumo,118,0,28.2,0,0,0,14
+2024-03-06,PRD009,Xarope Baunilha,insumo,39,0,26.4,0,0,0,37
+2024-03-06,PRD010,Xarope Caramelo,insumo,30,10,23.5,0,0,0,30
+2024-03-06,PRD011,Copo Pequeno,embalagem,33,0,18.6,0,0,0,12
+2024-03-06,PRD012,Copo Grande,embalagem,53,5,22.1,0,0,0,36
+2024-03-07,PRD001,Café Expresso,bebida,107,0,23.5,0,0,0,35
+2024-03-07,PRD002,Café Filtrado,bebida,33,20,19.1,1,0,0,8
+2024-03-07,PRD003,Cappuccino,bebida,59,5,29.1,1,0,0,30
+2024-03-07,PRD004,Latte,bebida,82,20,19.7,0,0,1,10
+2024-03-07,PRD005,Mocha,bebida,99,10,18.6,0,0,0,35
+2024-03-07,PRD006,Leite Integral,insumo,59,0,30.5,0,0,0,34
+2024-03-07,PRD007,Leite Desnatado,insumo,56,0,30.2,0,0,0,19
+2024-03-07,PRD008,Leite Vegetal,insumo,31,10,18.3,0,0,0,11
+2024-03-07,PRD009,Xarope Baunilha,insumo,72,0,23.4,0,0,0,35
+2024-03-07,PRD010,Xarope Caramelo,insumo,40,10,20.8,0,0,0,28
+2024-03-07,PRD011,Copo Pequeno,embalagem,51,0,29.6,0,0,0,25
+2024-03-07,PRD012,Copo Grande,embalagem,84,5,31.4,0,0,0,32
+2024-03-08,PRD001,Café Expresso,bebida,80,0,26.0,0,0,0,27
+2024-03-08,PRD002,Café Filtrado,bebida,98,0,22.0,0,0,0,19
+2024-03-08,PRD003,Cappuccino,bebida,100,20,18.2,0,0,0,33
+2024-03-08,PRD004,Latte,bebida,108,5,18.7,0,0,0,23
+2024-03-08,PRD005,Mocha,bebida,96,0,20.0,0,0,0,12
+2024-03-08,PRD006,Leite Integral,insumo,116,20,31.9,0,0,0,11
+2024-03-08,PRD007,Leite Desnatado,insumo,44,0,20.6,0,0,0,5
+2024-03-08,PRD008,Leite Vegetal,insumo,39,5,26.2,0,0,0,16
+2024-03-08,PRD009,Xarope Baunilha,insumo,118,0,29.2,0,0,0,27
+2024-03-08,PRD010,Xarope Caramelo,insumo,72,20,31.3,0,0,0,18
+2024-03-08,PRD011,Copo Pequeno,embalagem,57,0,27.4,0,0,0,31
+2024-03-08,PRD012,Copo Grande,embalagem,61,0,23.8,0,0,0,38
+2024-03-09,PRD001,Café Expresso,bebida,96,0,26.4,0,0,0,34
+2024-03-09,PRD002,Café Filtrado,bebida,74,20,20.4,0,0,0,22
+2024-03-09,PRD003,Cappuccino,bebida,95,0,25.7,0,0,1,17
+2024-03-09,PRD004,Latte,bebida,84,5,29.8,0,0,0,18
+2024-03-09,PRD005,Mocha,bebida,74,10,24.9,0,0,0,26
+2024-03-09,PRD006,Leite Integral,insumo,52,5,22.7,0,0,0,37
+2024-03-09,PRD007,Leite Desnatado,insumo,48,10,29.3,0,0,0,30
+2024-03-09,PRD008,Leite Vegetal,insumo,69,20,26.7,0,0,0,32
+2024-03-09,PRD009,Xarope Baunilha,insumo,64,10,31.9,0,0,0,26
+2024-03-09,PRD010,Xarope Caramelo,insumo,114,0,30.7,1,0,0,27
+2024-03-09,PRD011,Copo Pequeno,embalagem,93,5,27.8,0,0,1,22
+2024-03-09,PRD012,Copo Grande,embalagem,116,0,27.2,0,0,0,22
+2024-03-10,PRD001,Café Expresso,bebida,117,5,29.6,0,0,0,24
+2024-03-10,PRD002,Café Filtrado,bebida,35,5,27.7,0,0,0,30
+2024-03-10,PRD003,Cappuccino,bebida,69,20,24.8,0,0,0,32
+2024-03-10,PRD004,Latte,bebida,46,10,25.2,0,0,0,10
+2024-03-10,PRD005,Mocha,bebida,104,0,21.4,0,0,0,6
+2024-03-10,PRD006,Leite Integral,insumo,69,5,20.4,0,0,0,22
+2024-03-10,PRD007,Leite Desnatado,insumo,93,0,23.1,0,0,0,5
+2024-03-10,PRD008,Leite Vegetal,insumo,54,20,24.9,0,0,0,20
+2024-03-10,PRD009,Xarope Baunilha,insumo,48,5,26.6,0,0,0,23
+2024-03-10,PRD010,Xarope Caramelo,insumo,63,10,29.1,0,0,0,10
+2024-03-10,PRD011,Copo Pequeno,embalagem,50,0,18.9,0,0,0,35
+2024-03-10,PRD012,Copo Grande,embalagem,39,0,21.0,0,0,0,13
+2024-03-11,PRD001,Café Expresso,bebida,44,10,27.1,0,0,0,8
+2024-03-11,PRD002,Café Filtrado,bebida,110,5,25.8,0,0,0,19
+2024-03-11,PRD003,Cappuccino,bebida,47,0,29.4,0,0,0,35
+2024-03-11,PRD004,Latte,bebida,37,5,18.7,0,0,0,15
+2024-03-11,PRD005,Mocha,bebida,71,20,20.9,0,0,0,13
+2024-03-11,PRD006,Leite Integral,insumo,81,0,27.5,1,0,0,25
+2024-03-11,PRD007,Leite Desnatado,insumo,52,20,22.2,0,0,0,29
+2024-03-11,PRD008,Leite Vegetal,insumo,60,0,22.6,0,0,0,29
+2024-03-11,PRD009,Xarope Baunilha,insumo,42,0,26.1,0,0,0,39
+2024-03-11,PRD010,Xarope Caramelo,insumo,111,5,27.0,0,0,0,23
+2024-03-11,PRD011,Copo Pequeno,embalagem,91,0,23.2,0,0,0,18
+2024-03-11,PRD012,Copo Grande,embalagem,78,5,31.4,0,0,0,29
+2024-03-12,PRD001,Café Expresso,bebida,45,5,21.5,0,0,0,21
+2024-03-12,PRD002,Café Filtrado,bebida,92,20,30.0,0,0,0,29
+2024-03-12,PRD003,Cappuccino,bebida,35,0,31.2,0,0,0,21
+2024-03-12,PRD004,Latte,bebida,75,5,25.1,0,0,0,7
+2024-03-12,PRD005,Mocha,bebida,104,20,19.9,1,0,0,34
+2024-03-12,PRD006,Leite Integral,insumo,88,5,31.2,0,0,0,13
+2024-03-12,PRD007,Leite Desnatado,insumo,30,20,28.4,0,0,0,7
+2024-03-12,PRD008,Leite Vegetal,insumo,36,5,31.4,0,0,0,27
+2024-03-12,PRD009,Xarope Baunilha,insumo,70,5,29.7,0,0,0,21
+2024-03-12,PRD010,Xarope Caramelo,insumo,77,20,31.7,1,0,1,39
+2024-03-12,PRD011,Copo Pequeno,embalagem,43,20,30.9,0,0,0,27
+2024-03-12,PRD012,Copo Grande,embalagem,111,0,22.3,0,0,0,31
+2024-03-13,PRD001,Café Expresso,bebida,44,0,26.8,0,0,0,17
+2024-03-13,PRD002,Café Filtrado,bebida,117,20,19.9,0,0,0,5
+2024-03-13,PRD003,Cappuccino,bebida,63,10,25.4,0,0,0,11
+2024-03-13,PRD004,Latte,bebida,60,20,23.8,0,0,0,6
+2024-03-13,PRD005,Mocha,bebida,110,20,27.3,0,0,0,25
+2024-03-13,PRD006,Leite Integral,insumo,90,20,29.4,0,0,0,21
+2024-03-13,PRD007,Leite Desnatado,insumo,109,0,18.6,1,0,0,34
+2024-03-13,PRD008,Leite Vegetal,insumo,35,0,31.9,0,0,1,20
+2024-03-13,PRD009,Xarope Baunilha,insumo,80,0,26.0,0,0,0,6
+2024-03-13,PRD010,Xarope Caramelo,insumo,38,5,30.8,0,0,0,33
+2024-03-13,PRD011,Copo Pequeno,embalagem,67,5,18.9,0,0,1,37
+2024-03-13,PRD012,Copo Grande,embalagem,30,10,25.2,0,0,0,36
+2024-03-14,PRD001,Café Expresso,bebida,62,10,21.3,0,0,1,20
+2024-03-14,PRD002,Café Filtrado,bebida,63,0,20.7,0,0,0,22
+2024-03-14,PRD003,Cappuccino,bebida,83,20,28.3,0,0,0,21
+2024-03-14,PRD004,Latte,bebida,108,0,30.1,0,0,0,8
+2024-03-14,PRD005,Mocha,bebida,96,0,31.8,0,0,0,5
+2024-03-14,PRD006,Leite Integral,insumo,97,0,30.0,0,0,0,18
+2024-03-14,PRD007,Leite Desnatado,insumo,38,5,22.6,1,0,0,10
+2024-03-14,PRD008,Leite Vegetal,insumo,49,5,18.0,0,0,0,28
+2024-03-14,PRD009,Xarope Baunilha,insumo,76,5,24.0,0,0,0,34
+2024-03-14,PRD010,Xarope Caramelo,insumo,51,5,30.7,0,0,0,38
+2024-03-14,PRD011,Copo Pequeno,embalagem,94,0,22.2,0,0,0,29
+2024-03-14,PRD012,Copo Grande,embalagem,108,5,26.9,0,0,0,39
+2024-03-15,PRD001,Café Expresso,bebida,30,10,30.1,0,0,0,5
+2024-03-15,PRD002,Café Filtrado,bebida,50,20,19.9,0,0,0,30
+2024-03-15,PRD003,Cappuccino,bebida,109,10,28.8,1,0,1,27
+2024-03-15,PRD004,Latte,bebida,36,10,26.5,0,0,0,8
+2024-03-15,PRD005,Mocha,bebida,107,5,27.8,0,0,0,16
+2024-03-15,PRD006,Leite Integral,insumo,99,0,27.0,0,0,0,10
+2024-03-15,PRD007,Leite Desnatado,insumo,112,0,21.1,0,0,1,17
+2024-03-15,PRD008,Leite Vegetal,insumo,36,10,31.6,0,0,0,31
+2024-03-15,PRD009,Xarope Baunilha,insumo,86,20,20.0,0,0,0,27
+2024-03-15,PRD010,Xarope Caramelo,insumo,67,20,22.8,0,0,0,38
+2024-03-15,PRD011,Copo Pequeno,embalagem,70,0,30.8,0,0,0,22
+2024-03-15,PRD012,Copo Grande,embalagem,72,0,22.7,0,0,0,14
+2024-03-16,PRD001,Café Expresso,bebida,100,0,26.4,0,0,0,21
+2024-03-16,PRD002,Café Filtrado,bebida,103,5,21.3,0,0,0,20
+2024-03-16,PRD003,Cappuccino,bebida,70,5,28.0,0,0,0,6
+2024-03-16,PRD004,Latte,bebida,65,0,30.4,0,0,0,26
+2024-03-16,PRD005,Mocha,bebida,92,0,22.4,0,0,0,28
+2024-03-16,PRD006,Leite Integral,insumo,69,0,19.3,1,0,0,28
+2024-03-16,PRD007,Leite Desnatado,insumo,38,10,31.0,0,0,1,15
+2024-03-16,PRD008,Leite Vegetal,insumo,114,20,24.2,0,0,0,21
+2024-03-16,PRD009,Xarope Baunilha,insumo,47,0,20.3,1,0,0,13
+2024-03-16,PRD010,Xarope Caramelo,insumo,43,0,19.6,0,0,0,13
+2024-03-16,PRD011,Copo Pequeno,embalagem,106,5,24.5,0,0,0,30
+2024-03-16,PRD012,Copo Grande,embalagem,118,0,22.8,1,0,0,7
+2024-03-17,PRD001,Café Expresso,bebida,95,0,30.7,0,0,0,7
+2024-03-17,PRD002,Café Filtrado,bebida,78,0,23.1,0,0,1,11
+2024-03-17,PRD003,Cappuccino,bebida,75,10,29.3,0,0,0,29
+2024-03-17,PRD004,Latte,bebida,39,0,26.2,0,0,0,24
+2024-03-17,PRD005,Mocha,bebida,109,0,21.1,0,0,0,37
+2024-03-17,PRD006,Leite Integral,insumo,55,0,24.8,0,0,1,30
+2024-03-17,PRD007,Leite Desnatado,insumo,104,0,24.0,0,0,0,37
+2024-03-17,PRD008,Leite Vegetal,insumo,42,0,27.3,0,0,0,6
+2024-03-17,PRD009,Xarope Baunilha,insumo,102,20,27.3,0,0,0,24
+2024-03-17,PRD010,Xarope Caramelo,insumo,49,5,31.1,0,0,0,18
+2024-03-17,PRD011,Copo Pequeno,embalagem,45,5,22.8,0,0,0,26
+2024-03-17,PRD012,Copo Grande,embalagem,47,10,29.8,0,0,0,11
+2024-03-18,PRD001,Café Expresso,bebida,77,5,22.8,0,0,0,11
+2024-03-18,PRD002,Café Filtrado,bebida,88,20,20.5,0,0,0,27
+2024-03-18,PRD003,Cappuccino,bebida,82,20,19.7,0,0,0,30
+2024-03-18,PRD004,Latte,bebida,50,20,29.7,0,0,1,39
+2024-03-18,PRD005,Mocha,bebida,43,0,31.0,0,0,0,14
+2024-03-18,PRD006,Leite Integral,insumo,46,0,29.1,0,0,0,8
+2024-03-18,PRD007,Leite Desnatado,insumo,71,20,27.9,0,0,0,22
+2024-03-18,PRD008,Leite Vegetal,insumo,98,5,30.9,0,0,0,12
+2024-03-18,PRD009,Xarope Baunilha,insumo,80,5,26.7,0,0,0,12
+2024-03-18,PRD010,Xarope Caramelo,insumo,40,10,25.3,0,0,0,12
+2024-03-18,PRD011,Copo Pequeno,embalagem,65,20,23.4,0,0,0,25
+2024-03-18,PRD012,Copo Grande,embalagem,115,20,19.9,0,0,0,27
+2024-03-19,PRD001,Café Expresso,bebida,36,0,22.6,0,0,0,26
+2024-03-19,PRD002,Café Filtrado,bebida,73,0,30.9,0,0,0,28
+2024-03-19,PRD003,Cappuccino,bebida,80,0,27.4,0,0,0,28
+2024-03-19,PRD004,Latte,bebida,62,5,29.0,0,0,0,16
+2024-03-19,PRD005,Mocha,bebida,77,0,20.7,0,0,0,36
+2024-03-19,PRD006,Leite Integral,insumo,55,0,19.7,0,0,0,27
+2024-03-19,PRD007,Leite Desnatado,insumo,60,0,29.8,0,0,0,38
+2024-03-19,PRD008,Leite Vegetal,insumo,113,5,30.1,0,0,0,28
+2024-03-19,PRD009,Xarope Baunilha,insumo,101,20,30.4,0,0,0,15
+2024-03-19,PRD010,Xarope Caramelo,insumo,95,0,25.9,0,0,0,29
+2024-03-19,PRD011,Copo Pequeno,embalagem,97,0,26.8,0,0,0,27
+2024-03-19,PRD012,Copo Grande,embalagem,83,0,19.3,0,0,0,22
+2024-03-20,PRD001,Café Expresso,bebida,86,20,20.3,0,0,0,7
+2024-03-20,PRD002,Café Filtrado,bebida,119,5,19.4,0,0,1,32
+2024-03-20,PRD003,Cappuccino,bebida,111,20,30.0,0,0,0,11
+2024-03-20,PRD004,Latte,bebida,55,0,26.1,0,0,0,13
+2024-03-20,PRD005,Mocha,bebida,61,20,25.5,0,0,0,19
+2024-03-20,PRD006,Leite Integral,insumo,36,10,27.5,0,0,0,25
+2024-03-20,PRD007,Leite Desnatado,insumo,99,0,20.9,0,0,1,27
+2024-03-20,PRD008,Leite Vegetal,insumo,114,20,20.1,1,0,0,27
+2024-03-20,PRD009,Xarope Baunilha,insumo,45,20,31.8,0,0,0,29
+2024-03-20,PRD010,Xarope Caramelo,insumo,73,10,23.3,0,0,0,13
+2024-03-20,PRD011,Copo Pequeno,embalagem,41,20,30.8,0,0,0,9
+2024-03-20,PRD012,Copo Grande,embalagem,106,0,24.8,0,0,0,8
+2024-03-21,PRD001,Café Expresso,bebida,82,0,21.0,0,0,1,14
+2024-03-21,PRD002,Café Filtrado,bebida,72,0,21.3,0,0,0,14
+2024-03-21,PRD003,Cappuccino,bebida,41,10,30.9,0,0,0,27
+2024-03-21,PRD004,Latte,bebida,105,0,29.2,0,0,0,22
+2024-03-21,PRD005,Mocha,bebida,72,5,25.6,0,0,0,18
+2024-03-21,PRD006,Leite Integral,insumo,33,20,26.5,0,0,0,20
+2024-03-21,PRD007,Leite Desnatado,insumo,105,10,22.2,0,0,0,30
+2024-03-21,PRD008,Leite Vegetal,insumo,46,5,18.8,0,0,0,30
+2024-03-21,PRD009,Xarope Baunilha,insumo,78,10,27.8,0,0,0,6
+2024-03-21,PRD010,Xarope Caramelo,insumo,78,5,25.2,0,0,0,30
+2024-03-21,PRD011,Copo Pequeno,embalagem,109,0,29.2,0,0,0,34
+2024-03-21,PRD012,Copo Grande,embalagem,59,10,28.6,0,0,0,16
+2024-03-22,PRD001,Café Expresso,bebida,84,20,23.8,0,0,0,27
+2024-03-22,PRD002,Café Filtrado,bebida,82,10,18.8,1,0,0,19
+2024-03-22,PRD003,Cappuccino,bebida,46,0,29.8,0,0,0,18
+2024-03-22,PRD004,Latte,bebida,91,10,22.2,0,0,0,11
+2024-03-22,PRD005,Mocha,bebida,73,20,22.7,1,0,0,14
+2024-03-22,PRD006,Leite Integral,insumo,71,0,20.5,0,0,0,31
+2024-03-22,PRD007,Leite Desnatado,insumo,89,5,25.3,0,0,1,18
+2024-03-22,PRD008,Leite Vegetal,insumo,114,20,19.1,0,0,0,35
+2024-03-22,PRD009,Xarope Baunilha,insumo,81,20,31.1,0,0,0,37
+2024-03-22,PRD010,Xarope Caramelo,insumo,42,0,26.0,0,0,1,14
+2024-03-22,PRD011,Copo Pequeno,embalagem,35,0,30.5,0,0,0,20
+2024-03-22,PRD012,Copo Grande,embalagem,85,10,24.3,0,0,1,25
+2024-03-23,PRD001,Café Expresso,bebida,47,0,21.9,0,0,1,7
+2024-03-23,PRD002,Café Filtrado,bebida,71,20,23.5,0,0,0,24
+2024-03-23,PRD003,Cappuccino,bebida,81,10,19.2,0,0,1,27
+2024-03-23,PRD004,Latte,bebida,99,5,21.6,0,0,0,6
+2024-03-23,PRD005,Mocha,bebida,48,5,27.5,0,0,0,24
+2024-03-23,PRD006,Leite Integral,insumo,102,0,18.3,0,0,0,23
+2024-03-23,PRD007,Leite Desnatado,insumo,46,20,31.9,0,0,0,21
+2024-03-23,PRD008,Leite Vegetal,insumo,68,10,19.4,0,0,0,34
+2024-03-23,PRD009,Xarope Baunilha,insumo,105,10,26.4,0,0,0,18
+2024-03-23,PRD010,Xarope Caramelo,insumo,98,0,19.3,0,0,0,34
+2024-03-23,PRD011,Copo Pequeno,embalagem,117,5,20.4,0,0,0,13
+2024-03-23,PRD012,Copo Grande,embalagem,44,10,24.8,0,0,0,23
+2024-03-24,PRD001,Café Expresso,bebida,105,10,21.3,0,0,0,36
+2024-03-24,PRD002,Café Filtrado,bebida,91,10,25.2,0,0,0,32
+2024-03-24,PRD003,Cappuccino,bebida,47,5,20.0,0,0,0,35
+2024-03-24,PRD004,Latte,bebida,63,10,19.3,0,0,0,13
