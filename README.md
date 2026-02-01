@@ -1,47 +1,180 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+# 📊 Previsão de Consumo de Produtos em uma Cafeteria usando Amazon SageMaker Canvas  
+Projeto Desafio DIO — Machine Learning no-code com AWS SageMaker Canvas
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
+---
 
-## 📋 Pré-requisitos
+## 🎯 1. Objetivo do Projeto
 
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
+O objetivo deste projeto foi construir, treinar, analisar e realizar previsões de consumo utilizando Amazon SageMaker Canvas, explorando Machine Learning sem código (no-code).  
+O cenário escolhido foi uma cafeteria, com foco em prever a coluna **saida**, que representa o consumo ou venda de cada produto em um determinado dia.
 
+O fluxo do projeto seguiu as etapas sugeridas pela DIO:
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+1. Criar dataset sintético (1.000 registros)
+2. Importar os dados no Canvas e treinar o modelo
+3. Analisar métricas e impacto das variáveis
+4. Fazer previsões utilizando Single Prediction
+5. Registrar insights e conclusões
 
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
+---
 
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
+## 📁 2. Dataset Utilizado
 
+O dataset sintético inclui as seguintes colunas:
 
-## 🚀 Passo a Passo
+- `data_movimento` — Data do registro (não utilizada pelo modelo)
+- `produto_id` — Código identificador do produto
+- `produto_nome` — Nome do produto (ex.: Café Expresso, Cappuccino)
+- `categoria` — Classificação (bebida, insumo, embalagem)
+- `estoque_inicial` — Quantidade de estoque no início do dia
+- `entrada` — Reposição do dia
+- `temperatura` — Temperatura média do dia
+- `eventos_regiao` — Indica eventos na região (0/1)
+- `feriado` — Indica feriado (0/1)
+- `promocao` — Indica promoção (0/1)
+- `saida` — Variável-alvo (consumo/vendas)
 
-### 1. Selecionar Dataset
+---
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+## ⚙️ 3. Construção e Treinamento do Modelo
 
-### 2. Construir/Treinar
+- O dataset foi carregado no SageMaker Canvas.
+- A coluna alvo selecionada foi **saida**.
+- Embora o Canvas inicialmente sugerisse Time Series Forecasting, foi configurado como **Numeric Model Type** (Regressão Tabular), o que permite o uso do recurso Single Prediction.
+- O treinamento foi executado no modo **Quick Build**.
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+---
 
-### 3. Analisar
+## 📈 4. Métricas do Modelo
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+Após o treinamento, as métricas apresentadas foram:
 
-### 4. Prever
+- **RMSE:** 9.599  
+- **MSE:** 92.147  
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+Segundo o Canvas:
 
-## 🤔 Dúvidas?
+> “O modelo frequentemente prevê valores dentro de +/- 9.599 da saída real.”
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+Dentro do contexto de um dataset sintético, com ampla variabilidade, esse desempenho é considerado satisfatório e funcional para fins educacionais.
+
+---
+
+## 🔍 5. Impacto Global das Variáveis (Feature Importance)
+
+| Ordem | Feature          | Impacto | Interpretação |
+|------|------------------|---------|---------------|
+| **1** | **temperatura**      | **30.429%** | Afeta diretamente o consumo de bebidas quentes. |
+| **2** | **estoque_inicial**  | **20.921%** | Limita ou viabiliza o consumo. |
+| **3** | **produto_id**       | **19.211%** | Cada produto tem seu padrão próprio. |
+| **4** | **entrada**          | **14.093%** | Influencia a reposição e disponibilidade. |
+| **5** | **produto_nome**     | **11.132%** | Complementa a identificação do produto. |
+| **6** | categoria        | 2.081% | Baixo impacto devido à similaridade. |
+| **7** | eventos_regiao   | 1.056% | Pequena influência no conjunto sintético. |
+| **8** | promocao         | 0.889% | Pouco impactante no histórico. |
+
+---
+
+## 🔮 6. Previsões (Single Prediction Scenarios)
+
+Foram criados cenários específicos para avaliar como o modelo reage a mudanças nas variáveis.
+
+---
+
+### 🟣 Cenário 1 — Café Expresso em dia frio (18°C)
+
+**Valores utilizados:**
+- Produto: PRD001 — Café Expresso  
+- Estoque: 111  
+- Temperatura: 18°C  
+- Entrada: 0  
+
+**Previsão:**  
+### ➜ **30.006 unidades**
+
+**Feature Importance específica:**
+- temperatura: 86.29%
+- produto_nome: 5.15%
+- produto_id: 3.88%
+- estoque_inicial: 3.18%
+
+**Interpretação:**  
+Temperaturas baixas elevam a demanda por bebidas quentes — comportamento captado perfeitamente pelo modelo.
+
+---
+
+### 🔵 Cenário 2 — Café Expresso em dia quente (30°C+)
+
+**Valores utilizados:**
+- Produto: PRD001 — Café Expresso  
+- Estoque: 111  
+- Temperatura: >30°C  
+
+**Previsão:**  
+### ➜ **10.572 unidades**
+
+O consumo caiu cerca de 65% comparado ao cenário frio — totalmente coerente com o mercado de cafeterias.
+
+---
+
+### 🟢 Cenário 3 — Cappuccino com temperatura neutra (22°C)
+
+**Valores utilizados:**
+- Produto: PRD003 — Cappuccino  
+- Estoque: 75  
+- Temperatura: 22°C  
+
+**Previsão:**  
+### ➜ **17.935 unidades**
+
+**Feature Importance:**
+- produto_id: 29.95%
+- estoque_inicial: 27.55%
+- temperatura: 17.14%
+
+**Interpretação:**  
+Um consumo mais moderado e estável, como esperado para esse produto.
+
+---
+
+### 🔴 Cenário 4 — Estoque Baixo (15 unidades)
+
+**Valores utilizados:**
+- Produto: PRD003 — Cappuccino  
+- Estoque: 15  
+- Temperatura: 22°C  
+
+**Previsão:**  
+### ➜ **20.817 unidades**
+
+**Feature Importance:**
+- produto_id: 62.17%
+- estoque_inicial: 30.50%
+
+**Interpretação:**  
+Mesmo com estoque baixo, o padrão histórico de demanda do produto dominou.  
+Esse tipo de comportamento é comum em datasets sintéticos, onde certas correlações surgem mais fortes.
+
+---
+
+## 🧩 7. Conclusões
+
+- O modelo aprendeu padrões realistas, especialmente a relação entre temperatura e consumo.  
+- Produtos diferentes apresentaram demandas distintas, mostrando boa generalização.  
+- Com Single Prediction foi possível simular cenários práticos e interpretar o modelo de forma clara.  
+- Mesmo sendo um dataset sintético, as previsões foram coerentes e úteis.  
+
+**Projeto concluído com sucesso.**
+
+---
+
+## 🙏 Agradecimentos e Notas sobre a Construção do Projeto
+
+É importante registrar que o dataset utilizado neste projeto foi inteiramente concebido com o apoio do ChatGPT, a partir das orientações fornecidas para atender às exigências do desafio da DIO.  
+Diante da proximidade do prazo final de entrega e do tempo reduzido para esclarecimento de dúvidas diretamente com a equipe da DIO — que sempre se mostra extremamente prestativa — utilizei o ChatGPT para auxiliar na criação da base de dados, na evolução da análise e na condução dos cenários, garantindo que o desafio fosse concluído dentro do prazo.
+
+Ressalto que essa colaboração não substitui o aprendizado; ao contrário, permitiu que eu me dedicasse mais profundamente ao entendimento do SageMaker Canvas e à análise dos resultados.  
+
+Aproveito para agradecer à equipe da DIO pelos diversos treinamentos de excelente qualidade que venho realizando, os quais têm contribuído significativamente para o meu desenvolvimento técnico e profissional.
+
+---
